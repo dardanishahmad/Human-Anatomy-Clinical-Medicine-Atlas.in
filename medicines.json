@@ -1,0 +1,865 @@
+[
+  {
+    "id": "levetiracetam",
+    "name": "Levetiracetam",
+    "class": "Antiepileptic Drug",
+    "system": "Nervous System",
+
+    "description": "Levetiracetam is an anticonvulsant medication used to control seizures.",
+
+    "uses": [
+      "Epilepsy",
+      "Seizure prevention"
+    ],
+
+    "mechanism": "Modulates synaptic neurotransmitter release by affecting SV2A receptors in neurons.",
+
+    "sideEffects": [
+      "Drowsiness",
+      "Fatigue",
+      "Dizziness",
+      "Mood changes"
+    ],
+
+    "relatedDiseases": [
+      "Epilepsy"
+    ]
+  },
+
+
+  {
+    "id": "sodium-valproate",
+    "name": "Sodium Valproate",
+    "class": "Antiepileptic Drug",
+    "system": "Nervous System",
+
+    "description": "A medication used for seizure control and certain neurological disorders.",
+
+    "uses": [
+      "Epilepsy",
+      "Seizure disorders"
+    ],
+
+    "mechanism": "Enhances inhibitory neurotransmission through increased GABA activity.",
+
+    "sideEffects": [
+      "Weight gain",
+      "Nausea",
+      "Drowsiness",
+      "Liver-related complications"
+    ],
+
+    "relatedDiseases": [
+      "Epilepsy"
+    ]
+  },
+
+
+  {
+    "id": "sertraline",
+    "name": "Sertraline",
+    "class": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+    "system": "Nervous System",
+
+    "description": "An antidepressant medication used for mood and anxiety disorders.",
+
+    "uses": [
+      "Depression",
+      "Anxiety disorders",
+      "Panic disorder"
+    ],
+
+    "mechanism": "Increases serotonin availability between neurons.",
+
+    "sideEffects": [
+      "Nausea",
+      "Sleep changes",
+      "Headache"
+    ],
+
+    "relatedDiseases": [
+      "Depression",
+      "Anxiety Disorders"
+    ]
+  },
+
+
+  {
+    "id": "sumatriptan",
+    "name": "Sumatriptan",
+    "class": "Triptan",
+    "system": "Nervous System",
+
+    "description": "A medicine used for acute migraine attacks.",
+
+    "uses": [
+      "Migraine headache relief"
+    ],
+
+    "mechanism": "Activates serotonin receptors involved in migraine pain pathways.",
+
+    "sideEffects": [
+      "Tingling sensation",
+      "Chest discomfort",
+      "Dizziness"
+    ],
+
+    "relatedDiseases": [
+      "Migraine"
+    ]
+  },
+
+
+  {
+    "id": "amlodipine",
+    "name": "Amlodipine",
+    "class": "Calcium Channel Blocker",
+    "system": "Cardiovascular System",
+
+    "description": "A blood pressure medication that relaxes blood vessels.",
+
+    "uses": [
+      "Hypertension",
+      "Angina"
+    ],
+
+    "mechanism": "Blocks calcium entry into vascular smooth muscle causing vasodilation.",
+
+    "sideEffects": [
+      "Ankle swelling",
+      "Headache",
+      "Flushing"
+    ],
+
+    "relatedDiseases": [
+      "Hypertension",
+      "Coronary Artery Disease"
+    ]
+  },
+
+
+  {
+    "id": "atorvastatin",
+    "name": "Atorvastatin",
+    "class": "Statin",
+    "system": "Cardiovascular System",
+
+    "description": "A cholesterol-lowering medication used to reduce cardiovascular risk.",
+
+    "uses": [
+      "High cholesterol",
+      "Coronary artery disease prevention"
+    ],
+
+    "mechanism": "Inhibits HMG-CoA reductase, reducing LDL cholesterol production.",
+
+    "sideEffects": [
+      "Muscle pain",
+      "Digestive symptoms"
+    ],
+
+    "relatedDiseases": [
+      "Coronary Artery Disease"
+    ]
+  },
+
+
+  {
+    "id": "salbutamol",
+    "name": "Salbutamol",
+    "class": "Short Acting Beta-2 Agonist Bronchodilator",
+    "system": "Respiratory System",
+
+    "description": "A rapid-relief inhaled medicine used to open narrowed airways.",
+
+    "uses": [
+      "Asthma attacks",
+      "Bronchospasm"
+    ],
+
+    "mechanism": "Relaxes airway smooth muscle through beta-2 receptor stimulation.",
+
+    "sideEffects": [
+      "Tremor",
+      "Fast heartbeat",
+      "Nervousness"
+    ],
+
+    "relatedDiseases": [
+      "Asthma",
+      "COPD"
+    ]
+  },
+
+
+  {
+    "id": "budesonide",
+    "name": "Budesonide",
+    "class": "Inhaled Corticosteroid",
+    "system": "Respiratory System",
+
+    "description": "An anti-inflammatory medicine used for chronic airway inflammation.",
+
+    "uses": [
+      "Asthma control",
+      "COPD management"
+    ],
+
+    "mechanism": "Reduces inflammatory immune responses in airway tissues.",
+
+    "sideEffects": [
+      "Hoarse voice",
+      "Oral fungal infection"
+    ],
+
+    "relatedDiseases": [
+      "Asthma",
+      "COPD"
+    ]
+  },
+
+
+  {
+    "id": "omeprazole",
+    "name": "Omeprazole",
+    "class": "Proton Pump Inhibitor",
+    "system": "Gastrointestinal System",
+
+    "description": "A medicine that reduces stomach acid production.",
+
+    "uses": [
+      "GERD",
+      "Peptic ulcers"
+    ],
+
+    "mechanism": "Blocks gastric proton pumps responsible for acid secretion.",
+
+    "sideEffects": [
+      "Headache",
+      "Digestive changes"
+    ],
+
+    "relatedDiseases": [
+      "GERD",
+      "Peptic Ulcer Disease"
+    ]
+  },
+
+
+  {
+    "id": "metformin",
+    "name": "Metformin",
+    "class": "Biguanide",
+    "system": "Endocrine System",
+
+    "description": "A first-line medicine commonly used for type 2 diabetes.",
+
+    "uses": [
+      "Type 2 Diabetes Mellitus"
+    ],
+
+    "mechanism": "Improves insulin sensitivity and reduces liver glucose production.",
+
+    "sideEffects": [
+      "Nausea",
+      "Diarrhea",
+      "Digestive discomfort"
+    ],
+
+    "relatedDiseases": [
+      "Diabetes Mellitus"
+    ]
+  },
+
+
+  {
+    "id": "insulin",
+    "name": "Insulin",
+    "class": "Hormone Replacement Therapy",
+    "system": "Endocrine System",
+
+    "description": "A hormone therapy used to control blood glucose levels.",
+
+    "uses": [
+      "Type 1 Diabetes",
+      "Severe Type 2 Diabetes"
+    ],
+
+    "mechanism": "Allows glucose entry into cells and lowers blood glucose levels.",
+
+    "sideEffects": [
+      "Low blood sugar",
+      "Weight gain"
+    ],
+
+    "relatedDiseases": [
+      "Diabetes Mellitus"
+    ]
+  },
+
+
+  {
+    "id": "levothyroxine",
+    "name": "Levothyroxine",
+    "class": "Synthetic Thyroid Hormone",
+    "system": "Endocrine System",
+
+    "description": "A replacement form of thyroid hormone T4.",
+
+    "uses": [
+      "Hypothyroidism"
+    ],
+
+    "mechanism": "Restores normal thyroid hormone levels.",
+
+    "sideEffects": [
+      "Rapid heartbeat if dose is excessive",
+      "Sleep disturbance"
+    ],
+
+    "relatedDiseases": [
+      "Hypothyroidism"
+    ]
+  },
+
+
+  {
+    "id": "nitrofurantoin",
+    "name": "Nitrofurantoin",
+    "class": "Antibiotic",
+    "system": "Renal System",
+
+    "description": "An antibiotic commonly used for urinary tract infections.",
+
+    "uses": [
+      "Urinary Tract Infection"
+    ],
+
+    "mechanism": "Damages bacterial DNA and inhibits bacterial growth.",
+
+    "sideEffects": [
+      "Nausea",
+      "Digestive discomfort"
+    ],
+
+    "relatedDiseases": [
+      "UTI"
+    ]
+  },
+
+
+  {
+    "id": "alendronate",
+    "name": "Alendronate",
+    "class": "Bisphosphonate",
+    "system": "Musculoskeletal System",
+
+    "description": "A medicine used to strengthen bones and reduce fracture risk.",
+
+    "uses": [
+      "Osteoporosis"
+    ],
+
+    "mechanism": "Reduces osteoclast activity and slows bone breakdown.",
+
+    "sideEffects": [
+      "Heartburn",
+      "Bone or muscle pain"
+    ],
+
+    "relatedDiseases": [
+      "Osteoporosis"
+    ]
+  },
+
+
+  {
+    "id": "methotrexate",
+    "name": "Methotrexate",
+    "class": "Disease Modifying Antirheumatic Drug (DMARD)",
+    "system": "Musculoskeletal System",
+
+    "description": "An immune-modulating medicine used for autoimmune inflammatory diseases.",
+
+    "uses": [
+      "Rheumatoid Arthritis"
+    ],
+
+    "mechanism": "Reduces immune system activity involved in inflammation.",
+
+    "sideEffects": [
+      "Nausea",
+      "Liver enzyme changes",
+      "Fatigue"
+    ],
+
+    "relatedDiseases": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+
+
+  {
+    "id": "isotretinoin",
+    "name": "Isotretinoin",
+    "class": "Retinoid",
+    "system": "Dermatological System",
+
+    "description": "A powerful medication used for severe acne.",
+
+    "uses": [
+      "Severe acne"
+    ],
+
+    "mechanism": "Reduces oil gland activity and prevents acne formation.",
+
+    "sideEffects": [
+      "Dry skin",
+      "Dry lips",
+      "Skin sensitivity"
+    ],
+
+    "relatedDiseases": [
+      "Acne Vulgaris"
+    ]
+  },
+  [
+{
+"id":"carbidopa-levodopa",
+"name":"Carbidopa-Levodopa",
+"class":"Dopaminergic Agent",
+"system":"Nervous System",
+
+"description":"A combination medicine that increases dopamine activity in the brain and is commonly used to improve movement symptoms in Parkinson disease.",
+
+"uses":[
+"Parkinson Disease",
+"Movement symptoms caused by dopamine deficiency"
+],
+
+"mechanism":"Levodopa is converted into dopamine in the brain, while carbidopa reduces breakdown of levodopa before it reaches the brain.",
+
+"sideEffects":[
+"Nausea",
+"Dizziness",
+"Involuntary movements",
+"Sleep changes"
+],
+
+"relatedDiseases":[
+"Parkinson Disease"
+]
+},
+
+
+{
+"id":"donepezil",
+"name":"Donepezil",
+"class":"Acetylcholinesterase Inhibitor",
+"system":"Nervous System",
+
+"description":"A medicine used to improve cognitive symptoms in some patients with Alzheimer disease.",
+
+"uses":[
+"Alzheimer Disease",
+"Dementia symptoms"
+],
+
+"mechanism":"Increases acetylcholine availability in the brain by inhibiting acetylcholinesterase.",
+
+"sideEffects":[
+"Nausea",
+"Diarrhea",
+"Sleep disturbance",
+"Slow heartbeat"
+],
+
+"relatedDiseases":[
+"Alzheimer Disease"
+]
+},
+
+
+{
+"id":"memantine",
+"name":"Memantine",
+"class":"NMDA Receptor Antagonist",
+"system":"Nervous System",
+
+"description":"A medication used for moderate to severe Alzheimer disease to help manage cognitive symptoms.",
+
+"uses":[
+"Moderate to severe Alzheimer Disease"
+],
+
+"mechanism":"Regulates glutamate activity by blocking excessive NMDA receptor stimulation.",
+
+"sideEffects":[
+"Dizziness",
+"Headache",
+"Confusion",
+"Constipation"
+],
+
+"relatedDiseases":[
+"Alzheimer Disease"
+]
+},
+
+
+{
+"id":"aspirin",
+"name":"Aspirin",
+"class":"Antiplatelet Agent",
+"system":"Cardiovascular System",
+
+"description":"A medicine that reduces platelet aggregation and is used in selected cardiovascular conditions to reduce clot formation.",
+
+"uses":[
+"Heart attack management",
+"Prevention of blood clot-related cardiovascular events"
+],
+
+"mechanism":"Irreversibly inhibits platelet COX enzymes, reducing thromboxane production and platelet activation.",
+
+"sideEffects":[
+"Stomach irritation",
+"Bleeding risk",
+"Allergic reactions"
+],
+
+"relatedDiseases":[
+"Myocardial Infarction",
+"Coronary Heart Disease"
+]
+},
+
+
+{
+"id":"clopidogrel",
+"name":"Clopidogrel",
+"class":"Antiplatelet Drug",
+"system":"Cardiovascular System",
+
+"description":"A medicine that prevents platelets from forming harmful blood clots.",
+
+"uses":[
+"Coronary artery disease",
+"Heart attack prevention",
+"Stroke prevention"
+],
+
+"mechanism":"Blocks platelet P2Y12 receptors, reducing platelet activation.",
+
+"sideEffects":[
+"Bleeding",
+"Bruising",
+"Digestive discomfort"
+],
+
+"relatedDiseases":[
+"Ischemic Stroke",
+"Coronary Heart Disease"
+]
+},
+
+
+{
+"id":"furosemide",
+"name":"Furosemide",
+"class":"Loop Diuretic",
+"system":"Cardiovascular System",
+
+"description":"A diuretic medicine that helps remove excess fluid from the body.",
+
+"uses":[
+"Heart Failure",
+"Fluid retention",
+"High blood pressure in selected cases"
+],
+
+"mechanism":"Increases urine production by blocking sodium and chloride reabsorption in the kidneys.",
+
+"sideEffects":[
+"Low potassium levels",
+"Dehydration",
+"Dizziness"
+],
+
+"relatedDiseases":[
+"Heart Failure"
+]
+},
+
+
+{
+"id":"amoxicillin-clavulanate",
+"name":"Amoxicillin-Clavulanate",
+"class":"Penicillin Antibiotic Combination",
+"system":"Respiratory System",
+
+"description":"A broad-spectrum antibiotic combination used for several bacterial infections.",
+
+"uses":[
+"Pneumonia",
+"Respiratory bacterial infections",
+"Skin and urinary infections"
+],
+
+"mechanism":"Amoxicillin blocks bacterial cell wall formation while clavulanate inhibits beta-lactamase enzymes.",
+
+"sideEffects":[
+"Diarrhea",
+"Nausea",
+"Allergic reactions"
+],
+
+"relatedDiseases":[
+"Pneumonia"
+]
+},
+
+
+{
+"id":"azithromycin",
+"name":"Azithromycin",
+"class":"Macrolide Antibiotic",
+"system":"Respiratory System",
+
+"description":"An antibiotic used against certain bacterial respiratory infections.",
+
+"uses":[
+"Pneumonia",
+"Respiratory infections"
+],
+
+"mechanism":"Blocks bacterial protein synthesis by binding to bacterial ribosomes.",
+
+"sideEffects":[
+"Nausea",
+"Diarrhea",
+"Abdominal discomfort"
+],
+
+"relatedDiseases":[
+"Pneumonia"
+]
+},
+
+
+{
+"id":"rifampicin",
+"name":"Rifampicin",
+"class":"Antibiotic",
+"system":"Respiratory System",
+
+"description":"A key antibiotic used as part of combination therapy for tuberculosis.",
+
+"uses":[
+"Tuberculosis",
+"Certain bacterial infections"
+],
+
+"mechanism":"Inhibits bacterial RNA polymerase, preventing RNA synthesis.",
+
+"sideEffects":[
+"Orange discoloration of body fluids",
+"Liver enzyme changes",
+"Nausea"
+],
+
+"relatedDiseases":[
+"Tuberculosis"
+]
+},
+
+
+{
+"id":"isoniazid",
+"name":"Isoniazid",
+"class":"Antituberculosis Medicine",
+"system":"Respiratory System",
+
+"description":"A first-line medicine used in combination therapy for tuberculosis treatment.",
+
+"uses":[
+"Tuberculosis"
+],
+
+"mechanism":"Inhibits synthesis of mycolic acids required for bacterial cell walls.",
+
+"sideEffects":[
+"Liver toxicity",
+"Nausea",
+"Peripheral nerve symptoms"
+],
+
+"relatedDiseases":[
+"Tuberculosis"
+]
+},
+
+
+{
+"id":"allopurinol",
+"name":"Allopurinol",
+"class":"Xanthine Oxidase Inhibitor",
+"system":"Musculoskeletal System",
+
+"description":"A medicine that lowers uric acid levels and helps prevent gout attacks.",
+
+"uses":[
+"Gout",
+"High uric acid levels"
+],
+
+"mechanism":"Blocks xanthine oxidase, reducing uric acid production.",
+
+"sideEffects":[
+"Skin rash",
+"Nausea",
+"Liver enzyme changes"
+],
+
+"relatedDiseases":[
+"Gout"
+]
+},
+
+
+{
+"id":"colchicine",
+"name":"Colchicine",
+"class":"Anti-inflammatory Medicine",
+"system":"Musculoskeletal System",
+
+"description":"A medicine used to reduce inflammation during gout attacks.",
+
+"uses":[
+"Acute gout attacks",
+"Gout prevention in selected patients"
+],
+
+"mechanism":"Reduces inflammatory response caused by uric acid crystals.",
+
+"sideEffects":[
+"Diarrhea",
+"Nausea",
+"Abdominal pain"
+],
+
+"relatedDiseases":[
+"Gout"
+]
+},
+
+
+{
+"id":"hydrocortisone",
+"name":"Hydrocortisone",
+"class":"Topical Corticosteroid",
+"system":"Dermatological System",
+
+"description":"A corticosteroid medicine used to reduce skin inflammation and itching.",
+
+"uses":[
+"Eczema",
+"Inflammatory skin conditions"
+],
+
+"mechanism":"Suppresses inflammatory immune responses in skin tissues.",
+
+"sideEffects":[
+"Skin thinning with prolonged use",
+"Irritation",
+"Dryness"
+],
+
+"relatedDiseases":[
+"Atopic Dermatitis (Eczema)"
+]
+},
+
+
+{
+"id":"tenofovir",
+"name":"Tenofovir",
+"class":"Antiviral Medicine",
+"system":"Gastrointestinal System",
+
+"description":"An antiviral medicine used for chronic hepatitis B infection management.",
+
+"uses":[
+"Chronic Hepatitis B"
+],
+
+"mechanism":"Blocks viral reverse transcriptase, reducing viral replication.",
+
+"sideEffects":[
+"Kidney function changes",
+"Bone density effects",
+"Nausea"
+],
+
+"relatedDiseases":[
+"Hepatitis B"
+]
+},
+
+
+{
+"id":"oseltamivir",
+"name":"Oseltamivir",
+"class":"Antiviral Medicine",
+"system":"Respiratory System",
+
+"description":"An antiviral medicine used for influenza treatment when started early.",
+
+"uses":[
+"Influenza"
+],
+
+"mechanism":"Blocks influenza neuraminidase enzyme, limiting viral spread.",
+
+"sideEffects":[
+"Nausea",
+"Vomiting",
+"Headache"
+],
+
+"relatedDiseases":[
+"Influenza"
+]
+},
+
+
+{
+"id":"metoprolol",
+"name":"Metoprolol",
+"class":"Beta Blocker",
+"system":"Cardiovascular System",
+
+"description":"A medicine used to reduce heart rate and decrease workload on the heart.",
+
+"uses":[
+"Heart Failure",
+"Hypertension",
+"Angina"
+],
+
+"mechanism":"Blocks beta-adrenergic receptors, reducing heart rate and cardiac workload.",
+
+"sideEffects":[
+"Slow heartbeat",
+"Fatigue",
+"Dizziness"
+],
+
+"relatedDiseases":[
+"Heart Failure",
+"Hypertension"
+]
+}
+
+]
+]

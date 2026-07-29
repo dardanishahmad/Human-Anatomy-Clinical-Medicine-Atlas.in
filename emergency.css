@@ -1,0 +1,674 @@
+/* ==========================================
+   HumanAtlas Emergency Guide Styles
+========================================== */
+
+
+
+/* ==========================
+   Emergency Hero
+========================== */
+
+
+.emergency-hero {
+
+
+    width:min(1100px,90%);
+
+
+    margin:150px auto 50px;
+
+
+    text-align:center;
+
+
+}
+
+
+
+.emergency-hero h1 {
+
+
+    font-size:
+
+    clamp(45px,6vw,75px);
+
+
+    font-weight:900;
+
+
+    margin-top:25px;
+
+
+}
+
+
+
+.emergency-hero h1 span {
+
+
+    background:
+
+    linear-gradient(
+
+    135deg,
+
+    #ef4444,
+
+    #f97316
+
+    );
+
+
+    -webkit-background-clip:text;
+
+
+    color:transparent;
+
+
+}
+
+
+
+.emergency-hero p {
+
+
+    max-width:750px;
+
+
+    margin:25px auto;
+
+
+    color:#cbd5e1;
+
+
+    font-size:19px;
+
+
+    line-height:1.7;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Alert Banner
+========================== */
+
+
+.alert-banner {
+
+
+    width:min(1000px,90%);
+
+
+    margin:40px auto;
+
+
+    padding:30px;
+
+
+    text-align:center;
+
+
+    border-radius:30px;
+
+
+    background:
+
+    linear-gradient(
+
+    135deg,
+
+    rgba(239,68,68,.25),
+
+    rgba(249,115,22,.15)
+
+    );
+
+
+    border:
+
+    1px solid rgba(239,68,68,.5);
+
+
+}
+
+
+
+.alert-banner h2 {
+
+
+    color:#f87171;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.alert-banner p {
+
+
+    color:#fecaca;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Emergency Cards
+========================== */
+
+
+.emergency-grid {
+
+
+    width:min(1200px,90%);
+
+
+    margin:60px auto;
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(4,1fr);
+
+
+    gap:25px;
+
+
+}
+
+
+
+
+
+
+
+.emergency-card {
+
+
+    padding:35px;
+
+
+    border-radius:35px;
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    backdrop-filter:
+
+    blur(25px);
+
+
+    transition:.35s;
+
+
+}
+
+
+
+
+
+.emergency-card:hover {
+
+
+    transform:
+
+    translateY(-10px);
+
+
+    border-color:#ef4444;
+
+
+    box-shadow:
+
+    0 25px 70px
+
+    rgba(239,68,68,.2);
+
+
+}
+
+
+
+
+
+.icon {
+
+
+    font-size:55px;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+
+
+
+.emergency-card h2 {
+
+
+    margin-bottom:15px;
+
+
+    color:#fca5a5;
+
+
+}
+
+
+
+
+
+.emergency-card p {
+
+
+    color:#cbd5e1;
+
+
+    line-height:1.7;
+
+
+}
+
+
+
+
+
+
+
+.emergency-btn {
+
+
+    margin-top:20px;
+
+
+    width:100%;
+
+
+    padding:14px;
+
+
+    border-radius:50px;
+
+
+    border:none;
+
+
+    cursor:pointer;
+
+
+    color:white;
+
+
+    font-weight:700;
+
+
+    background:
+
+    linear-gradient(
+
+    135deg,
+
+    #dc2626,
+
+    #f97316
+
+    );
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.emergency-btn:hover {
+
+
+    transform:
+
+    translateY(-3px);
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Response Panel
+========================== */
+
+
+.response-panel {
+
+
+    width:min(900px,90%);
+
+
+    margin:70px auto;
+
+
+    padding:40px;
+
+
+    border-radius:35px;
+
+
+    text-align:center;
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    backdrop-filter:
+
+    blur(25px);
+
+
+}
+
+
+
+
+
+
+
+.response-panel h2 {
+
+
+    color:#f87171;
+
+
+    font-size:35px;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+.response-panel p {
+
+
+    color:#cbd5e1;
+
+
+    line-height:1.8;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   First Aid Section
+========================== */
+
+
+.first-aid {
+
+
+    width:min(1100px,90%);
+
+
+    margin:90px auto;
+
+
+}
+
+
+
+.first-aid h2 {
+
+
+    text-align:center;
+
+
+    font-size:40px;
+
+
+    margin-bottom:40px;
+
+
+}
+
+
+
+
+
+
+
+.aid-grid {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(3,1fr);
+
+
+    gap:25px;
+
+
+}
+
+
+
+
+
+
+
+.aid-grid div {
+
+
+    padding:35px;
+
+
+    border-radius:30px;
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    text-align:center;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.aid-grid div:hover {
+
+
+    transform:
+
+    translateY(-8px);
+
+
+    border-color:#f97316;
+
+
+}
+
+
+
+
+
+.aid-grid div:first-child {
+
+
+    font-size:35px;
+
+
+}
+
+
+
+
+
+.aid-grid h3 {
+
+
+    color:#fca5a5;
+
+
+    margin:15px 0;
+
+
+}
+
+
+
+
+
+.aid-grid p {
+
+
+    color:#cbd5e1;
+
+
+    line-height:1.7;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Responsive
+========================== */
+
+
+@media(max-width:1100px){
+
+
+.emergency-grid {
+
+
+    grid-template-columns:
+
+    repeat(2,1fr);
+
+
+}
+
+
+}
+
+
+
+@media(max-width:700px){
+
+
+.emergency-grid {
+
+
+    grid-template-columns:
+
+    1fr;
+
+
+}
+
+
+
+.aid-grid {
+
+
+    grid-template-columns:
+
+    1fr;
+
+
+}
+
+
+
+.response-panel {
+
+
+    padding:25px;
+
+
+}
+
+
+
+.first-aid h2 {
+
+
+    font-size:32px;
+
+
+}
+
+
+}

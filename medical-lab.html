@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Medical Image Laboratory | HumanAtlas</title>
+
+
+<meta name="description" content="Explore medical imaging concepts including X-ray, MRI and CT educational visualization with HumanAtlas.">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/lab.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="background">
+
+<div class="aurora aurora-one"></div>
+
+<div class="aurora aurora-two"></div>
+
+</div>
+
+
+
+
+
+
+
+
+<header class="navbar">
+
+
+<div class="logo">
+
+<span class="logo-icon">
+🧬
+</span>
+
+<span>
+HumanAtlas
+</span>
+
+</div>
+
+
+
+
+<nav class="desktop-menu">
+
+
+<a href="index.html">
+Home
+</a>
+
+
+<a href="anatomy.html">
+Anatomy
+</a>
+
+
+<a href="diseases.html">
+Diseases
+</a>
+
+
+<a href="medicines.html">
+Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+AI
+</a>
+
+
+<a href="3d-anatomy.html">
+3D
+</a>
+
+
+
+</nav>
+
+
+
+
+<div class="nav-actions">
+
+
+<button class="theme-btn">
+◐
+</button>
+
+
+<button class="mobile-toggle">
+
+☰
+
+</button>
+
+
+</div>
+
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<section class="lab-hero">
+
+
+<div class="badge">
+
+Medical Imaging Education
+
+</div>
+
+
+
+<h1>
+
+Medical
+
+<span>
+Image Laboratory
+</span>
+
+</h1>
+
+
+
+<p>
+
+Explore X-ray, MRI, and CT imaging concepts through an interactive educational interface.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="lab-container">
+
+
+
+<div class="image-viewer">
+
+
+
+<div class="viewer-header">
+
+<h2>
+Imaging Viewer
+</h2>
+
+
+<span id="scanType">
+X-Ray Mode
+</span>
+
+
+</div>
+
+
+
+
+
+
+<div 
+id="medicalImageArea"
+class="medical-image">
+
+
+<div class="scan-placeholder">
+
+
+🦴
+
+
+<p>
+Medical Image Preview
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="image-controls">
+
+
+<button data-mode="xray">
+
+🦴 X-Ray
+
+</button>
+
+
+<button data-mode="mri">
+
+🧠 MRI
+
+</button>
+
+
+<button data-mode="ct">
+
+🔵 CT Scan
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="analysis-panel">
+
+
+<h2>
+Image Analysis
+</h2>
+
+
+
+<div class="analysis-card">
+
+
+<h3>
+Anatomy
+</h3>
+
+
+<p id="anatomyInfo">
+
+Select an imaging mode to explore structures.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="analysis-card">
+
+
+<h3>
+Learning Notes
+</h3>
+
+
+<p id="learningInfo">
+
+Medical imaging allows visualization of internal body structures for education and diagnosis.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="analysis-card">
+
+
+<h3>
+Common Uses
+</h3>
+
+
+<ul id="useList">
+
+
+<li>
+Bone structure evaluation
+</li>
+
+
+<li>
+Organ visualization
+</li>
+
+
+<li>
+Disease assessment
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="scan-library">
+
+
+<h2>
+Imaging Library
+</h2>
+
+
+
+<div class="scan-grid">
+
+
+<button>
+
+🦴
+
+Skeletal X-Ray
+
+</button>
+
+
+
+<button>
+
+🧠
+
+Brain MRI
+
+</button>
+
+
+
+<button>
+
+❤️
+
+Cardiac Imaging
+
+</button>
+
+
+
+<button>
+
+🫁
+
+Chest CT
+
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<footer>
+
+
+<h3>
+🧬 HumanAtlas
+</h3>
+
+
+<p>
+Medical education and biological visualization platform.
+</p>
+
+
+<small>
+
+Educational resource only. Medical images should be interpreted by qualified professionals.
+
+</small>
+
+
+</footer>
+
+
+
+
+<div class="mobile-panel">
+
+
+<div class="mobile-header">
+
+
+<div class="logo">
+
+🧬 HumanAtlas
+
+</div>
+
+
+<button class="mobile-close">
+
+×
+
+</button>
+
+
+</div>
+
+
+
+
+<a href="index.html">
+🏠 Home
+</a>
+
+
+<a href="anatomy.html">
+🧠 Anatomy
+</a>
+
+
+<a href="diseases.html">
+🦠 Diseases
+</a>
+
+
+<a href="medicines.html">
+💊 Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+🤖 AI Assistant
+</a>
+
+
+<a href="health-dashboard.html">
+📊 Health Dashboard
+</a>
+
+
+<a href="3d-anatomy.html">
+🧬 3D Anatomy
+</a>
+
+
+<a href="emergency-guide.html">
+🚑 Emergency
+</a>
+
+
+<a href="quiz-academy.html">
+🎓 Academy
+</a>
+
+
+</div>
+
+
+<script src="js/lab.js"></script>
+
+<script src="js/mobile-nav.js"></script>
+
+
+</body>
+
+</html>

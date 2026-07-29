@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HumanAtlas | Interactive Clinical Medicine Platform</title>
+
+    <meta name="description" content="HumanAtlas is an interactive medical education platform exploring human anatomy, diseases, medicines, and clinical knowledge.">
+    <meta name="keywords" content="human anatomy, medicine, diseases, healthcare, clinical education">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     Loading Screen
+========================= -->
+
+<div class="loader">
+
+    <div class="dna-loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <h2>HumanAtlas</h2>
+
+</div>
+
+
+
+<!-- =========================
+     Background Effects
+========================= -->
+
+<div class="background">
+
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+    <div class="particles"></div>
+
+</div>
+
+
+
+
+<!-- =========================
+     Navigation
+========================= -->
+
+
+<header class="navbar">
+
+
+    <div class="logo">
+
+        <span class="logo-icon">
+            🧬
+        </span>
+
+        <span>
+            HumanAtlas
+        </span>
+
+    </div>
+
+
+<nav class="desktop-menu">
+
+<a href="anatomy.html">🧠 Anatomy</a>
+
+<a href="diseases.html">🦠 Diseases</a>
+
+<a href="medicines.html">💊 Medicines</a>
+
+<a href="ai-assistant.html">🤖 AI Assistant</a>
+
+<a href="health-dashboard.html">📊 Dashboard</a>
+
+<!-- <a href="3d-anatomy.html">🧬 3D Anatomy</a>
+
+<a href="emergency-guide.html">🚨 Emergency Guide</a>
+
+<a href="genetics.html">🧬 Genetics</a>
+
+<a href="medical-lab.html">🧪 Medical Lab</a>
+
+<a href="quiz-academy.html">📝 Quiz Academy</a> -->
+
+</nav>
+
+
+
+<button class="mobile-menu-btn">
+☰
+</button>
+
+
+    <button class="theme-btn">
+
+        ◐
+
+    </button>
+
+
+</header>
+
+
+
+
+
+<!-- =========================
+     Hero Section
+========================= -->
+
+
+<section class="hero" id="home">
+
+
+    <div class="hero-content">
+
+
+        <span class="badge">
+
+            Advanced Medical Knowledge Platform
+
+        </span>
+
+
+
+        <h1>
+
+            Explore The
+            <span>
+                Human Body
+            </span>
+
+            Like Never Before
+
+        </h1>
+
+
+
+        <p>
+
+            Discover anatomy, diseases, medicines, and clinical science through an interactive next-generation medical learning experience.
+
+        </p>
+
+
+
+        <div class="hero-buttons">
+
+            <a href="emergency-guide.html" class="primary-btn">
+
+                Explore Systems
+
+            </a>
+
+
+            <a href="medical-lab.html" class="secondary-btn">
+
+                Learn More
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- Human Body Placeholder -->
+
+    <div class="human-model">
+
+
+        <div class="body-circle"></div>
+
+
+        <div class="organ brain">
+            🧠
+        </div>
+
+
+        <div class="organ heart">
+            ❤️
+        </div>
+
+
+        <div class="organ lungs">
+            🫁
+        </div>
+
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+<!-- =========================
+     Statistics
+========================= -->
+
+
+<section class="statistics">
+
+
+<div class="stat-card">
+
+<h2 data-count="11">
+0
+</h2>
+
+<p>
+Major Body Systems
+</p>
+
+</div>
+
+
+
+<div class="stat-card">
+
+<h2 data-count="200">
+0
+</h2>
+
+<p>
+Medical Conditions
+</p>
+
+</div>
+
+
+
+<div class="stat-card">
+
+<h2 data-count="400">
+0
+</h2>
+
+<p>
+Medicines
+</p>
+
+</div>
+
+
+
+<div class="stat-card">
+
+<h2 data-count="1000">
+0
+</h2>
+
+<p>
+Clinical Facts
+</p>
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+<!-- =========================
+     Body Systems
+========================= -->
+
+
+<section class="systems" id="systems">
+
+
+<div class="section-title">
+
+
+<span>
+Explore
+</span>
+
+
+<h2>
+Human Body Systems
+</h2>
+
+
+<p>
+Understand the architecture and function of the human body.
+</p>
+
+
+</div>
+
+
+
+
+<div class="system-grid">
+
+
+
+<div class="system-card">
+
+<div class="icon">
+🧠
+</div>
+
+<h3>
+Nervous System
+</h3>
+
+<p>
+Brain, spinal cord, cognition, sensation and neurological disorders.
+</p>
+
+</div>
+
+
+
+
+<div class="system-card">
+
+<div class="icon">
+❤️
+</div>
+
+<h3>
+Cardiovascular
+</h3>
+
+<p>
+Heart, blood vessels and circulation-related diseases.
+</p>
+
+</div>
+
+
+
+
+
+<div class="system-card">
+
+<div class="icon">
+🫁
+</div>
+
+<h3>
+Respiratory System
+</h3>
+
+<p>
+Lungs, airways and breathing disorders.
+</p>
+
+</div>
+
+
+
+
+
+<div class="system-card">
+
+<div class="icon">
+🧬
+</div>
+
+<h3>
+Endocrine System
+</h3>
+
+<p>
+Hormones, metabolism and gland function.
+</p>
+
+</div>
+
+
+
+
+
+<div class="system-card">
+
+<div class="icon">
+🦴
+</div>
+
+<h3>
+Musculoskeletal
+</h3>
+
+<p>
+Bones, joints and muscle disorders.
+</p>
+
+</div>
+
+
+
+
+
+<div class="system-card">
+
+<div class="icon">
+🩺
+</div>
+
+<h3>
+Renal System
+</h3>
+
+<p>
+Kidneys, urine formation and electrolyte balance.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- =========================
+     Features
+========================= -->
+
+
+<section class="features" id="features">
+
+
+<div class="section-title">
+
+
+<span>
+Technology
+</span>
+
+
+<h2>
+Built For Modern Medical Learning
+</h2>
+
+
+</div>
+
+
+
+
+<div class="feature-grid">
+
+
+
+<div class="feature-card">
+
+<h3>
+🔍 Smart Search
+</h3>
+
+<p>
+Find diseases, medicines, organs and clinical information instantly.
+</p>
+
+</div>
+
+
+
+
+<div class="feature-card">
+
+<h3>
+💊 Medicine Database
+</h3>
+
+<p>
+Explore drug classes, uses, mechanisms and safety information.
+</p>
+
+</div>
+
+
+
+
+<div class="feature-card">
+
+<h3>
+🧠 Interactive Anatomy
+</h3>
+
+<p>
+Navigate human systems through a visual learning experience.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+<!-- =========================
+     About
+========================= -->
+
+
+<section class="about" id="about">
+
+
+<h2>
+The Future Of Medical Education
+</h2>
+
+
+<p>
+
+HumanAtlas combines technology, design and medical knowledge to create an immersive educational experience for students, healthcare learners and curious minds.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- =========================
+     Footer
+========================= -->
+
+
+<footer>
+
+
+<div class="footer-logo">
+
+🧬 HumanAtlas
+
+</div>
+
+
+<p>
+
+Educational platform for exploring human anatomy and clinical medicine.
+
+</p>
+
+
+<small>
+
+© 2026 HumanAtlas. Educational content only. Not a substitute for professional medical advice.
+
+</small>
+
+
+</footer>
+
+<div class="mobile-menu">
+
+
+<button class="close-menu">
+✕
+</button>
+
+
+<a href="anatomy.html">
+🧠 Anatomy
+</a>
+
+
+<a href="diseases.html">
+🦠 Diseases
+</a>
+
+
+<a href="medicines.html">
+💊 Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+🤖 AI Assistant
+</a>
+
+
+<a href="health-dashboard.html">
+📊 Dashboard
+</a>
+
+
+<a href="3d-anatomy.html">
+🧬 3D Anatomy
+</a>
+
+<a href="emergency-guide.html">🚨 Emergency Guide</a>
+
+<a href="genetics.html">🧬 Genetics</a>
+
+<a href="medical-lab.html">🧪 Medical Lab</a>
+
+<a href="quiz-academy.html">📝 Quiz Academy</a>
+
+</div>
+
+
+
+<!-- JavaScript -->
+
+<script src="js/app.js"></script>
+<script src="js/navigation.js"></script>
+
+
+</body>
+</html>

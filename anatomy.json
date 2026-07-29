@@ -1,0 +1,306 @@
+{
+  "brain": {
+    "name": "Brain",
+    "system": "Nervous System",
+
+    "description": "The brain is the central organ of the nervous system. It receives and processes information from the body, controls movement, emotions, memory, learning, consciousness, and regulates essential life functions.",
+
+    "anatomy": [
+      "Cerebrum - responsible for thinking, memory, reasoning and voluntary movement",
+      "Cerebellum - coordinates balance and muscle movements",
+      "Brainstem - controls breathing, heartbeat and vital functions",
+      "Limbic system - involved in emotions and memory"
+    ],
+
+    "functions": [
+      "Controls cognition and decision making",
+      "Processes sensory information",
+      "Coordinates voluntary movement",
+      "Regulates breathing, heartbeat and temperature",
+      "Controls emotions and behavior",
+      "Stores and processes memories"
+    ],
+
+    "diseases": [
+      "Epilepsy",
+      "Stroke",
+      "Migraine",
+      "Parkinson Disease",
+      "Alzheimer Disease",
+      "Multiple Sclerosis",
+      "Meningitis",
+      "Brain Tumors"
+    ],
+
+    "diagnosis": [
+      "MRI Brain",
+      "CT Brain Scan",
+      "EEG",
+      "Neurological examination",
+      "Cerebrospinal fluid analysis"
+    ],
+
+    "medicines": [
+      "Levetiracetam",
+      "Sodium Valproate",
+      "Sumatriptan",
+      "Carbidopa-Levodopa",
+      "Donepezil"
+    ],
+
+    "clinicalFacts": [
+      "The adult human brain weighs approximately 1.3-1.4 kilograms",
+      "The brain contains billions of neurons",
+      "The brain consumes a large proportion of the body's oxygen supply"
+    ]
+  },
+
+
+  "heart": {
+
+    "name": "Heart",
+
+    "system": "Cardiovascular System",
+
+    "description": "The heart is a muscular pump that circulates blood throughout the body. It maintains oxygen delivery, nutrient transport, and removal of metabolic waste.",
+
+
+    "anatomy": [
+      "Right atrium - receives oxygen-poor blood",
+      "Right ventricle - pumps blood to lungs",
+      "Left atrium - receives oxygen-rich blood",
+      "Left ventricle - pumps blood to the body",
+      "Heart valves - regulate blood flow direction"
+    ],
+
+
+    "functions": [
+      "Pumps oxygen-rich blood",
+      "Maintains circulation",
+      "Supports organ oxygen supply",
+      "Maintains blood pressure",
+      "Provides continuous blood flow"
+    ],
+
+
+    "diseases": [
+      "Hypertension",
+      "Coronary Artery Disease",
+      "Heart Failure",
+      "Arrhythmias",
+      "Heart Attack",
+      "Cardiomyopathy"
+    ],
+
+
+    "diagnosis": [
+      "ECG",
+      "Echocardiogram",
+      "Cardiac stress test",
+      "Coronary angiography",
+      "Blood cardiac biomarkers"
+    ],
+
+
+    "medicines": [
+      "Amlodipine",
+      "Telmisartan",
+      "Atorvastatin",
+      "Metoprolol",
+      "Furosemide",
+      "Aspirin"
+    ],
+
+
+    "clinicalFacts": [
+      "The heart beats around 100,000 times per day",
+      "The heart has four chambers",
+      "The left ventricle is the strongest chamber"
+    ]
+  },
+
+
+  "lungs": {
+
+    "name": "Lungs",
+
+    "system": "Respiratory System",
+
+
+    "description": "The lungs are respiratory organs responsible for exchanging oxygen and carbon dioxide between air and blood.",
+
+
+    "anatomy": [
+      "Right lung contains three lobes",
+      "Left lung contains two lobes to accommodate the heart",
+      "Bronchi transport air into lungs",
+      "Alveoli perform gas exchange"
+    ],
+
+
+    "functions": [
+      "Exchange oxygen and carbon dioxide",
+      "Maintain blood oxygen levels",
+      "Support breathing",
+      "Help regulate acid-base balance",
+      "Remove carbon dioxide"
+    ],
+
+
+    "diseases": [
+      "Asthma",
+      "COPD",
+      "Pneumonia",
+      "Tuberculosis",
+      "Lung Cancer",
+      "Pulmonary Fibrosis"
+    ],
+
+
+    "diagnosis": [
+      "Chest X-ray",
+      "CT Chest",
+      "Pulmonary Function Test",
+      "Bronchoscopy",
+      "Sputum Testing"
+    ],
+
+
+    "medicines": [
+      "Salbutamol",
+      "Budesonide",
+      "Amoxicillin-Clavulanate",
+      "Azithromycin",
+      "Oseltamivir"
+    ],
+
+
+    "clinicalFacts": [
+      "The lungs contain millions of alveoli",
+      "The right lung is slightly larger than the left lung",
+      "Gas exchange occurs through the alveolar membrane"
+    ]
+  },
+
+
+  "liver": {
+
+    "name": "Liver",
+
+    "system": "Gastrointestinal & Hepatic System",
+
+
+    "description": "The liver is the largest internal organ and performs essential metabolic, detoxification, digestive and storage functions.",
+
+
+    "anatomy": [
+      "Right and left hepatic lobes",
+      "Bile ducts",
+      "Hepatic artery",
+      "Portal vein"
+    ],
+
+
+    "functions": [
+      "Processes nutrients",
+      "Produces bile",
+      "Metabolizes medications",
+      "Removes toxins from blood",
+      "Stores glycogen",
+      "Produces important proteins"
+    ],
+
+
+    "diseases": [
+      "Hepatitis",
+      "Fatty Liver Disease",
+      "Liver Cirrhosis",
+      "Liver Cancer",
+      "Hepatic Encephalopathy"
+    ],
+
+
+    "diagnosis": [
+      "Liver Function Tests",
+      "Ultrasound Liver",
+      "CT Scan",
+      "MRI Liver",
+      "Liver Biopsy"
+    ],
+
+
+    "medicines": [
+      "Antiviral Therapy",
+      "Lactulose",
+      "Diuretics",
+      "Supportive Liver Treatments"
+    ],
+
+
+    "clinicalFacts": [
+      "The liver can regenerate after injury",
+      "It performs hundreds of biochemical functions",
+      "It plays an important role in drug metabolism"
+    ]
+  },
+
+
+  "kidney": {
+
+    "name": "Kidney",
+
+    "system": "Renal & Urinary System",
+
+
+    "description": "The kidneys are filtering organs that maintain fluid balance, remove waste, regulate electrolytes and help control blood pressure.",
+
+
+    "anatomy": [
+      "Renal cortex",
+      "Renal medulla",
+      "Nephrons",
+      "Collecting ducts"
+    ],
+
+
+    "functions": [
+      "Filters metabolic waste",
+      "Controls fluid balance",
+      "Regulates electrolytes",
+      "Controls blood pressure",
+      "Produces hormones involved in red blood cell production"
+    ],
+
+
+    "diseases": [
+      "Chronic Kidney Disease",
+      "Kidney Stones",
+      "Urinary Tract Infection",
+      "Acute Kidney Injury"
+    ],
+
+
+    "diagnosis": [
+      "Kidney Function Tests",
+      "Urine Analysis",
+      "Ultrasound Kidney",
+      "CT Scan"
+    ],
+
+
+    "medicines": [
+      "Nitrofurantoin",
+      "Torsemide",
+      "Sodium Bicarbonate",
+      "Trimethoprim-Sulfamethoxazole"
+    ],
+
+
+    "clinicalFacts": [
+      "Most people have two kidneys",
+      "Each kidney contains many filtering units called nephrons",
+      "Kidneys help maintain blood pressure"
+    ]
+  }
+
+}

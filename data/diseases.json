@@ -1,0 +1,1485 @@
+[
+  {
+    "id": "epilepsy",
+    "name": "Epilepsy",
+    "system": "Nervous System",
+    "category": "Neurology",
+    "description": "Epilepsy is a neurological disorder characterized by recurrent seizures caused by abnormal electrical activity in the brain.",
+
+    "symptoms": [
+      "Seizures",
+      "Temporary confusion",
+      "Loss of awareness",
+      "Uncontrolled movements"
+    ],
+
+    "causes": [
+      "Genetic factors",
+      "Brain injury",
+      "Stroke",
+      "Brain infections"
+    ],
+
+    "diagnosis": [
+      "EEG",
+      "MRI Brain",
+      "Neurological assessment"
+    ],
+
+    "medicines": [
+      "Levetiracetam",
+      "Sodium Valproate",
+      "Carbamazepine"
+    ]
+  },
+
+
+  {
+    "id": "ischemic-stroke",
+    "name": "Ischemic Stroke",
+    "system": "Nervous System",
+    "category": "Neurology",
+
+    "description": "An ischemic stroke occurs when a blood clot blocks blood flow to part of the brain, causing reduced oxygen supply.",
+
+    "symptoms": [
+      "Sudden weakness",
+      "Speech difficulty",
+      "Facial drooping",
+      "Loss of coordination"
+    ],
+
+    "causes": [
+      "Blood clots",
+      "Atherosclerosis",
+      "Heart-related emboli"
+    ],
+
+    "diagnosis": [
+      "CT Brain Scan",
+      "MRI",
+      "Blood tests"
+    ],
+
+    "medicines": [
+      "Alteplase (tPA)",
+      "Antiplatelet therapy"
+    ]
+  },
+
+
+  {
+    "id": "hypertension",
+    "name": "Hypertension",
+    "system": "Cardiovascular System",
+    "category": "Cardiology",
+
+    "description": "Hypertension is a chronic condition where blood pressure remains elevated, increasing cardiovascular risk.",
+
+    "symptoms": [
+      "Often asymptomatic",
+      "Headache",
+      "Dizziness",
+      "Blurred vision"
+    ],
+
+    "causes": [
+      "Genetics",
+      "High sodium intake",
+      "Obesity",
+      "Lifestyle factors"
+    ],
+
+    "diagnosis": [
+      "Blood pressure measurement",
+      "Cardiovascular assessment"
+    ],
+
+    "medicines": [
+      "Amlodipine",
+      "Telmisartan",
+      "Lisinopril"
+    ]
+  },
+
+
+  {
+    "id": "heart-failure",
+    "name": "Heart Failure",
+    "system": "Cardiovascular System",
+    "category": "Cardiology",
+
+    "description": "Heart failure occurs when the heart cannot pump blood efficiently enough to meet the body's needs.",
+
+    "symptoms": [
+      "Shortness of breath",
+      "Fatigue",
+      "Leg swelling",
+      "Reduced exercise tolerance"
+    ],
+
+    "causes": [
+      "Coronary artery disease",
+      "Hypertension",
+      "Heart muscle damage"
+    ],
+
+    "diagnosis": [
+      "Echocardiogram",
+      "ECG",
+      "Blood tests"
+    ],
+
+    "medicines": [
+      "Furosemide",
+      "Metoprolol",
+      "ACE inhibitors"
+    ]
+  },
+
+
+  {
+    "id": "asthma",
+    "name": "Asthma",
+    "system": "Respiratory System",
+    "category": "Pulmonology",
+
+    "description": "Asthma is a chronic inflammatory airway disease causing episodes of breathing difficulty.",
+
+    "symptoms": [
+      "Wheezing",
+      "Cough",
+      "Chest tightness",
+      "Shortness of breath"
+    ],
+
+    "causes": [
+      "Allergens",
+      "Air pollution",
+      "Genetic susceptibility"
+    ],
+
+    "diagnosis": [
+      "Pulmonary function tests",
+      "Clinical examination"
+    ],
+
+    "medicines": [
+      "Salbutamol",
+      "Budesonide"
+    ]
+  },
+
+
+  {
+    "id": "pneumonia",
+    "name": "Pneumonia",
+    "system": "Respiratory System",
+    "category": "Infectious Disease",
+
+    "description": "Pneumonia is an infection causing inflammation of the lung air sacs.",
+
+    "symptoms": [
+      "Fever",
+      "Cough",
+      "Chest pain",
+      "Breathing difficulty"
+    ],
+
+    "causes": [
+      "Bacterial infection",
+      "Viral infection",
+      "Fungal infection"
+    ],
+
+    "diagnosis": [
+      "Chest X-ray",
+      "Blood tests",
+      "Sputum analysis"
+    ],
+
+    "medicines": [
+      "Amoxicillin-Clavulanate",
+      "Azithromycin"
+    ]
+  },
+
+
+  {
+    "id": "diabetes",
+    "name": "Diabetes Mellitus",
+    "system": "Endocrine System",
+    "category": "Metabolic Disease",
+
+    "description": "Diabetes is a metabolic disorder characterized by elevated blood glucose levels.",
+
+    "symptoms": [
+      "Increased thirst",
+      "Frequent urination",
+      "Fatigue",
+      "Weight changes"
+    ],
+
+    "causes": [
+      "Insulin deficiency",
+      "Insulin resistance",
+      "Genetic factors"
+    ],
+
+    "diagnosis": [
+      "Blood glucose testing",
+      "HbA1c testing"
+    ],
+
+    "medicines": [
+      "Insulin",
+      "Metformin"
+    ]
+  },
+
+
+  {
+    "id": "hypothyroidism",
+    "name": "Hypothyroidism",
+    "system": "Endocrine System",
+    "category": "Hormonal Disorder",
+
+    "description": "Hypothyroidism occurs when the thyroid gland produces insufficient thyroid hormones.",
+
+    "symptoms": [
+      "Fatigue",
+      "Weight gain",
+      "Cold intolerance",
+      "Slow metabolism"
+    ],
+
+    "causes": [
+      "Autoimmune disease",
+      "Thyroid surgery",
+      "Iodine imbalance"
+    ],
+
+    "diagnosis": [
+      "TSH testing",
+      "Thyroid hormone levels"
+    ],
+
+    "medicines": [
+      "Levothyroxine"
+    ]
+  },
+
+
+  {
+    "id": "chronic-kidney-disease",
+    "name": "Chronic Kidney Disease",
+    "system": "Renal System",
+    "category": "Nephrology",
+
+    "description": "Chronic kidney disease is a progressive loss of kidney function over time.",
+
+    "symptoms": [
+      "Swelling",
+      "Fatigue",
+      "Changes in urination",
+      "Electrolyte imbalance"
+    ],
+
+    "causes": [
+      "Diabetes",
+      "Hypertension",
+      "Kidney injury"
+    ],
+
+    "diagnosis": [
+      "Kidney function tests",
+      "Urine analysis"
+    ],
+
+    "medicines": [
+      "Torsemide",
+      "Sodium Bicarbonate"
+    ]
+  },
+
+
+  {
+    "id": "rheumatoid-arthritis",
+    "name": "Rheumatoid Arthritis",
+    "system": "Musculoskeletal System",
+    "category": "Rheumatology",
+
+    "description": "Rheumatoid arthritis is an autoimmune disease causing chronic joint inflammation.",
+
+    "symptoms": [
+      "Joint pain",
+      "Swelling",
+      "Morning stiffness"
+    ],
+
+    "causes": [
+      "Autoimmune dysfunction",
+      "Genetic factors"
+    ],
+
+    "diagnosis": [
+      "Blood tests",
+      "Imaging studies"
+    ],
+
+    "medicines": [
+      "Methotrexate",
+      "Adalimumab"
+    ]
+  },
+
+
+  {
+    "id": "osteoporosis",
+    "name": "Osteoporosis",
+    "system": "Musculoskeletal System",
+    "category": "Bone Disease",
+
+    "description": "Osteoporosis is a condition where bones become weak and more likely to fracture.",
+
+    "symptoms": [
+      "Fragile bones",
+      "Fractures",
+      "Back pain"
+    ],
+
+    "causes": [
+      "Aging",
+      "Hormonal changes",
+      "Calcium deficiency"
+    ],
+
+    "diagnosis": [
+      "Bone density scan"
+    ],
+
+    "medicines": [
+      "Alendronate"
+    ]
+  },
+
+
+  {
+    "id": "acne",
+    "name": "Acne Vulgaris",
+    "system": "Dermatological System",
+    "category": "Skin Disease",
+
+    "description": "Acne is a skin condition involving clogged pores, inflammation, and increased oil production.",
+
+    "symptoms": [
+      "Pimples",
+      "Blackheads",
+      "Inflamed lesions"
+    ],
+
+    "causes": [
+      "Hormonal changes",
+      "Excess sebum production",
+      "Skin inflammation"
+    ],
+
+    "diagnosis": [
+      "Clinical examination"
+    ],
+
+    "medicines": [
+      "Isotretinoin",
+      "Tretinoin"
+    ]
+  },
+
+
+  {
+    "id": "eczema",
+    "name": "Atopic Dermatitis (Eczema)",
+    "system": "Dermatological System",
+    "category": "Skin Disease",
+
+    "description": "Eczema is an inflammatory skin condition causing itching, dryness, and irritation.",
+
+    "symptoms": [
+      "Itching",
+      "Dry skin",
+      "Redness",
+      "Skin irritation"
+    ],
+
+    "causes": [
+      "Immune dysfunction",
+      "Environmental triggers",
+      "Genetic factors"
+    ],
+
+    "diagnosis": [
+      "Clinical examination"
+    ],
+
+    "medicines": [
+      "Hydrocortisone",
+      "Tacrolimus ointment"
+    ]
+  },
+
+
+
+{
+"id":"migraine",
+"name":"Migraine",
+"system":"Nervous System",
+"category":"Neurology",
+
+"description":"Migraine is a neurological disorder characterized by recurrent episodes of moderate to severe headache, often associated with sensory symptoms such as nausea, light sensitivity, and sound sensitivity.",
+
+"symptoms":[
+"Moderate to severe headache",
+"Throbbing head pain",
+"Nausea or vomiting",
+"Sensitivity to light",
+"Sensitivity to sound",
+"Visual disturbances (aura) in some patients"
+],
+
+"causes":[
+"Genetic susceptibility",
+"Abnormal brain activity",
+"Hormonal changes",
+"Stress",
+"Sleep disturbances",
+"Certain foods or environmental triggers"
+],
+
+"diagnosis":[
+"Clinical neurological assessment",
+"Medical history evaluation",
+"Brain imaging when clinically required"
+],
+
+"medicines":[
+"Sumatriptan - migraine-specific acute treatment",
+"NSAIDs - used for pain relief in some patients",
+"Preventive medicines may be prescribed for frequent migraines"
+]
+},
+
+
+{
+"id":"parkinson-disease",
+"name":"Parkinson Disease",
+"system":"Nervous System",
+"category":"Neurology",
+
+"description":"Parkinson disease is a progressive neurological disorder caused mainly by loss of dopamine-producing cells in the brain, affecting movement and coordination.",
+
+"symptoms":[
+"Tremor at rest",
+"Slow movements (bradykinesia)",
+"Muscle stiffness",
+"Balance problems",
+"Changes in speech",
+"Reduced facial expression"
+],
+
+"causes":[
+"Loss of dopamine-producing neurons",
+"Genetic factors",
+"Environmental factors",
+"Age-related changes"
+],
+
+"diagnosis":[
+"Neurological examination",
+"Clinical assessment",
+"Brain imaging when required"
+],
+
+"medicines":[
+"Levodopa-Carbidopa - improves dopamine activity",
+"Dopamine agonists - used in selected patients",
+"MAO-B inhibitors - may help control symptoms"
+]
+},
+
+
+{
+"id":"alzheimers-disease",
+"name":"Alzheimer Disease",
+"system":"Nervous System",
+"category":"Neurology",
+
+"description":"Alzheimer disease is a progressive neurodegenerative disorder that causes gradual decline in memory, thinking ability, and daily functioning.",
+
+"symptoms":[
+"Memory loss",
+"Difficulty finding words",
+"Confusion",
+"Problems with daily activities",
+"Changes in behavior"
+],
+
+"causes":[
+"Abnormal protein accumulation in the brain",
+"Genetic factors",
+"Age-related brain changes"
+],
+
+"diagnosis":[
+"Cognitive assessment",
+"Neurological examination",
+"Brain imaging",
+"Laboratory tests to exclude other causes"
+],
+
+"medicines":[
+"Donepezil - may improve cognitive symptoms",
+"Memantine - used in moderate to severe disease"
+]
+},
+
+
+{
+"id":"coronary-heart-disease",
+"name":"Coronary Heart Disease",
+"system":"Cardiovascular System",
+"category":"Cardiology",
+
+"description":"Coronary heart disease occurs when coronary arteries become narrowed due to plaque buildup, reducing blood supply to the heart muscle.",
+
+"symptoms":[
+"Chest pain or pressure",
+"Shortness of breath",
+"Fatigue",
+"Pain spreading to arm, jaw, or back"
+],
+
+"causes":[
+"Atherosclerosis",
+"High cholesterol",
+"Smoking",
+"High blood pressure",
+"Diabetes"
+],
+
+"diagnosis":[
+"ECG",
+"Stress testing",
+"Echocardiography",
+"Coronary angiography"
+],
+
+"medicines":[
+"Statins - reduce cholesterol levels",
+"Antiplatelet medicines - reduce clot risk",
+"Beta blockers - reduce heart workload",
+"Nitrates - relieve angina symptoms"
+]
+},
+
+
+{
+"id":"myocardial-infarction",
+"name":"Heart Attack (Myocardial Infarction)",
+"system":"Cardiovascular System",
+"category":"Emergency Cardiology",
+
+"description":"A myocardial infarction occurs when blood flow to part of the heart muscle is suddenly blocked, causing damage to heart tissue.",
+
+"symptoms":[
+"Severe chest pressure",
+"Pain spreading to arm or jaw",
+"Shortness of breath",
+"Cold sweating",
+"Nausea"
+],
+
+"causes":[
+"Blood clot blocking coronary artery",
+"Plaque rupture",
+"Severe coronary artery narrowing"
+],
+
+"diagnosis":[
+"ECG",
+"Cardiac troponin blood test",
+"Echocardiogram",
+"Coronary angiography"
+],
+
+"medicines":[
+"Aspirin - emergency antiplatelet therapy when appropriate",
+"Antiplatelet medicines",
+"Statins",
+"Beta blockers"
+]
+},
+
+
+{
+"id":"tuberculosis",
+"name":"Tuberculosis (TB)",
+"system":"Respiratory System",
+"category":"Infectious Disease",
+
+"description":"Tuberculosis is an infectious disease caused by Mycobacterium tuberculosis, commonly affecting the lungs but potentially involving other organs.",
+
+"symptoms":[
+"Persistent cough",
+"Fever",
+"Night sweats",
+"Weight loss",
+"Fatigue",
+"Coughing blood in advanced cases"
+],
+
+"causes":[
+"Mycobacterium tuberculosis infection",
+"Airborne transmission from infected individuals"
+],
+
+"diagnosis":[
+"Sputum testing",
+"Chest X-ray",
+"Molecular testing",
+"Tuberculin skin testing"
+],
+
+"medicines":[
+"Isoniazid",
+"Rifampicin",
+"Pyrazinamide",
+"Ethambutol"
+]
+},
+
+
+{
+"id":"chronic-bronchitis",
+"name":"Chronic Bronchitis",
+"system":"Respiratory System",
+"category":"Pulmonology",
+
+"description":"Chronic bronchitis is a form of COPD characterized by long-term inflammation of the airways and persistent mucus-producing cough.",
+
+"symptoms":[
+"Long-term cough",
+"Mucus production",
+"Breathing difficulty",
+"Frequent respiratory infections"
+],
+
+"causes":[
+"Smoking",
+"Air pollution",
+"Occupational irritants"
+],
+
+"diagnosis":[
+"Pulmonary function tests",
+"Chest imaging",
+"Clinical examination"
+],
+
+"medicines":[
+"Bronchodilators",
+"Inhaled corticosteroids in selected patients",
+"Mucus-relieving treatments when appropriate"
+]
+},
+
+
+{
+"id":"gout",
+"name":"Gout",
+"system":"Musculoskeletal System",
+"category":"Rheumatology",
+
+"description":"Gout is an inflammatory arthritis caused by accumulation of uric acid crystals in joints, leading to sudden episodes of severe pain and swelling.",
+
+"symptoms":[
+"Sudden severe joint pain",
+"Joint swelling",
+"Redness and warmth",
+"Commonly affects the big toe"
+],
+
+"causes":[
+"High uric acid levels",
+"Reduced kidney uric acid clearance",
+"Dietary factors",
+"Genetic factors"
+],
+
+"diagnosis":[
+"Joint fluid analysis",
+"Blood uric acid testing",
+"Imaging studies"
+],
+
+"medicines":[
+"Allopurinol - reduces uric acid production",
+"Colchicine - helps control acute attacks",
+"NSAIDs - reduce inflammation"
+]
+},
+
+
+{
+"id":"psoriasis",
+"name":"Psoriasis",
+"system":"Dermatological System",
+"category":"Skin Disease",
+
+"description":"Psoriasis is a chronic immune-mediated skin condition causing rapid skin cell growth and formation of thick, scaly patches.",
+
+"symptoms":[
+"Red skin patches",
+"Silvery scales",
+"Itching",
+"Dry cracked skin",
+"Nail changes"
+],
+
+"causes":[
+"Immune system dysfunction",
+"Genetic factors",
+"Environmental triggers"
+],
+
+"diagnosis":[
+"Clinical examination",
+"Skin biopsy in uncertain cases"
+],
+
+"medicines":[
+"Topical corticosteroids",
+"Vitamin D analog creams",
+"Biologic medicines for severe disease"
+]
+},
+
+
+{
+"id":"cystic-fibrosis",
+"name":"Cystic Fibrosis",
+"system":"Respiratory System",
+"category":"Genetic Disorder",
+"description":"Cystic fibrosis is a genetic disorder affecting the lungs and digestive system, leading to thick mucus production and chronic respiratory infections.",
+"symptoms":[
+"Persistent cough",
+"Frequent lung infections",
+"Salty-tasting skin",
+"Poor growth and weight gain",
+"Difficulty with bowel movements"
+],
+"causes":[
+"Mutations in the CFTR gene",
+"Autosomal recessive inheritance"
+],
+"diagnosis":[
+"Newborn screening",
+"Sweat chloride test",
+"Genetic testing"
+],
+"medicines":[
+"CFTR modulators (e.g., Ivacaftor, Lumacaftor)",
+"Bronchodilators",
+"Antibiotics for lung infections",
+"Pancreatic enzyme replacement therapy"
+]
+} ,
+
+{
+"id":"hemorrhagic-stroke",
+"name":"Hemorrhagic Stroke",
+"system":"Nervous System",
+"category":"Neurology",
+
+"description":"Hemorrhagic stroke occurs when a blood vessel in the brain ruptures, causing bleeding inside or around the brain. The accumulated blood can increase pressure and damage brain tissue.",
+
+"symptoms":[
+"Sudden severe headache",
+"Weakness or numbness on one side",
+"Difficulty speaking",
+"Loss of coordination",
+"Confusion",
+"Loss of consciousness"
+],
+
+"causes":[
+"Uncontrolled high blood pressure",
+"Brain aneurysm rupture",
+"Abnormal blood vessels",
+"Blood clotting disorders",
+"Head trauma"
+],
+
+"diagnosis":[
+"CT brain scan",
+"MRI brain",
+"Blood tests",
+"Cerebral angiography"
+],
+
+"medicines":[
+"Blood pressure lowering medicines",
+"Medicines to control brain swelling when required",
+"Reversal medicines for certain blood thinners"
+]
+},
+
+
+{
+"id":"multiple-sclerosis",
+"name":"Multiple Sclerosis",
+"system":"Nervous System",
+"category":"Neurology",
+
+"description":"Multiple sclerosis is a chronic autoimmune disease where the immune system attacks myelin, the protective covering of nerves in the central nervous system, affecting communication between the brain and body.",
+
+"symptoms":[
+"Vision problems",
+"Numbness or tingling",
+"Muscle weakness",
+"Balance problems",
+"Fatigue",
+"Difficulty with coordination"
+],
+
+"causes":[
+"Immune system dysfunction",
+"Genetic susceptibility",
+"Environmental factors",
+"Possible vitamin D association"
+],
+
+"diagnosis":[
+"MRI brain and spinal cord",
+"Neurological examination",
+"Cerebrospinal fluid analysis",
+"Evoked potential tests"
+],
+
+"medicines":[
+"Disease-modifying therapies",
+"Corticosteroids for acute relapses",
+"Symptom-specific treatments"
+]
+},
+
+
+{
+"id":"meningitis",
+"name":"Meningitis",
+"system":"Nervous System",
+"category":"Neurology / Infectious Disease",
+
+"description":"Meningitis is inflammation of the protective membranes surrounding the brain and spinal cord. It can be caused by bacteria, viruses, fungi, or other organisms.",
+
+"symptoms":[
+"Fever",
+"Severe headache",
+"Neck stiffness",
+"Sensitivity to light",
+"Confusion",
+"Nausea or vomiting"
+],
+
+"causes":[
+"Bacterial infection",
+"Viral infection",
+"Fungal infection",
+"Certain immune conditions"
+],
+
+"diagnosis":[
+"Lumbar puncture and cerebrospinal fluid analysis",
+"Blood tests",
+"Brain imaging when required"
+],
+
+"medicines":[
+"Antibiotics for bacterial meningitis",
+"Antiviral medicines for selected viral infections",
+"Corticosteroids in selected cases"
+]
+},
+
+
+{
+"id":"influenza",
+"name":"Influenza (Flu)",
+"system":"Respiratory System",
+"category":"Infectious Disease",
+
+"description":"Influenza is a contagious respiratory infection caused by influenza viruses. It can range from mild illness to severe disease, especially in high-risk individuals.",
+
+"symptoms":[
+"Fever",
+"Cough",
+"Sore throat",
+"Body aches",
+"Fatigue",
+"Headache"
+],
+
+"causes":[
+"Influenza virus infection",
+"Airborne respiratory droplets",
+"Close contact with infected individuals"
+],
+
+"diagnosis":[
+"Clinical assessment",
+"Rapid influenza testing",
+"Molecular testing"
+],
+
+"medicines":[
+"Oseltamivir - antiviral medicine used in selected cases",
+"Fever-reducing medicines",
+"Supportive treatment"
+]
+},
+
+
+{
+"id":"covid-19",
+"name":"COVID-19",
+"system":"Respiratory System",
+"category":"Infectious Disease",
+
+"description":"COVID-19 is an infectious disease caused by SARS-CoV-2 virus. It primarily affects the respiratory system but may involve multiple organs.",
+
+"symptoms":[
+"Fever",
+"Cough",
+"Fatigue",
+"Sore throat",
+"Loss of taste or smell",
+"Breathing difficulty in severe cases"
+],
+
+"causes":[
+"SARS-CoV-2 viral infection",
+"Respiratory transmission"
+],
+
+"diagnosis":[
+"PCR testing",
+"Rapid antigen testing",
+"Clinical evaluation"
+],
+
+"medicines":[
+"Antiviral medicines for selected high-risk patients",
+"Supportive treatment",
+"Oxygen therapy in severe disease"
+]
+},
+
+
+{
+"id":"hepatitis-b",
+"name":"Hepatitis B",
+"system":"Gastrointestinal System",
+"category":"Hepatology / Infectious Disease",
+
+"description":"Hepatitis B is a viral infection that affects the liver and can become chronic, potentially leading to cirrhosis or liver cancer.",
+
+"symptoms":[
+"Fatigue",
+"Jaundice",
+"Abdominal discomfort",
+"Dark urine",
+"Nausea"
+],
+
+"causes":[
+"Hepatitis B virus infection",
+"Blood exposure",
+"Sexual transmission",
+"Mother-to-child transmission"
+],
+
+"diagnosis":[
+"Hepatitis B surface antigen testing",
+"Blood tests for liver function",
+"Viral DNA testing"
+],
+
+"medicines":[
+"Tenofovir - antiviral therapy for selected chronic cases",
+"Entecavir - antiviral medicine used in chronic infection"
+]
+},
+
+
+{
+"id":"kidney-stones",
+"name":"Kidney Stones",
+"system":"Renal System",
+"category":"Urology",
+
+"description":"Kidney stones are hard deposits formed from minerals and salts inside the kidneys. They may block urine flow and cause severe pain.",
+
+"symptoms":[
+"Severe side or back pain",
+"Pain during urination",
+"Blood in urine",
+"Nausea",
+"Frequent urination"
+],
+
+"causes":[
+"Low fluid intake",
+"High mineral concentration in urine",
+"Certain dietary factors",
+"Metabolic disorders"
+],
+
+"diagnosis":[
+"Urine testing",
+"Ultrasound",
+"CT scan"
+],
+
+"medicines":[
+"Pain-relieving medicines",
+"Medicines that help stone passage in selected cases",
+"Treatment depends on stone size and type"
+]
+},
+
+
+{
+"id":"anemia",
+"name":"Anemia",
+"system":"Blood System",
+"category":"Hematology",
+
+"description":"Anemia is a condition where the blood has reduced oxygen-carrying capacity, commonly due to low hemoglobin levels or reduced red blood cells.",
+
+"symptoms":[
+"Fatigue",
+"Weakness",
+"Pale skin",
+"Shortness of breath",
+"Dizziness"
+],
+
+"causes":[
+"Iron deficiency",
+"Vitamin B12 deficiency",
+"Blood loss",
+"Chronic diseases",
+"Inherited blood disorders"
+],
+
+"diagnosis":[
+"Complete blood count (CBC)",
+"Iron studies",
+"Vitamin level testing"
+],
+
+"medicines":[
+"Iron supplements for iron deficiency",
+"Vitamin B12 supplementation when required",
+"Treatment of underlying cause"
+]
+},
+
+
+{
+"id":"polycystic-ovary-syndrome",
+"name":"Polycystic Ovary Syndrome (PCOS)",
+"system":"Endocrine System",
+"category":"Gynecology / Hormonal Disorder",
+
+"description":"PCOS is a hormonal disorder affecting ovarian function and metabolism. It may cause irregular menstrual cycles, increased androgen levels, and fertility problems.",
+
+"symptoms":[
+"Irregular periods",
+"Excess facial or body hair",
+"Acne",
+"Weight gain",
+"Difficulty with fertility"
+],
+
+"causes":[
+"Hormonal imbalance",
+"Insulin resistance",
+"Genetic factors"
+],
+
+"diagnosis":[
+"Medical history assessment",
+"Hormone blood tests",
+"Pelvic ultrasound"
+],
+
+"medicines":[
+"Metformin - used in selected patients with insulin resistance",
+"Hormonal contraceptives for cycle regulation",
+"Fertility medicines when required"
+]
+},
+
+[
+{
+"id":"breast-cancer",
+"name":"Breast Cancer",
+"system":"Reproductive System",
+"category":"Oncology",
+
+"description":"Breast cancer is a malignant growth of cells in breast tissue. It can begin in milk ducts or lobules and may spread to other parts of the body if untreated.",
+
+"symptoms":[
+"Breast lump or thickening",
+"Change in breast size or shape",
+"Nipple discharge",
+"Skin changes over breast",
+"Nipple inversion",
+"Persistent breast pain"
+],
+
+"causes":[
+"Genetic mutations",
+"Family history of breast cancer",
+"Increasing age",
+"Hormonal factors",
+"Certain lifestyle factors"
+],
+
+"diagnosis":[
+"Clinical breast examination",
+"Mammography",
+"Breast ultrasound",
+"Breast biopsy",
+"MRI in selected cases"
+],
+
+"medicines":[
+"Hormonal therapy for hormone-sensitive cancers",
+"Chemotherapy medicines",
+"Targeted therapy",
+"Immunotherapy in selected cases"
+]
+},
+
+
+{
+"id":"lung-cancer",
+"name":"Lung Cancer",
+"system":"Respiratory System",
+"category":"Oncology",
+
+"description":"Lung cancer is a malignant tumor originating in lung tissue. It may interfere with breathing and can spread to other organs.",
+
+"symptoms":[
+"Persistent cough",
+"Coughing blood",
+"Chest pain",
+"Shortness of breath",
+"Unexplained weight loss",
+"Repeated chest infections"
+],
+
+"causes":[
+"Smoking",
+"Secondhand smoke exposure",
+"Air pollution",
+"Occupational exposure",
+"Genetic factors"
+],
+
+"diagnosis":[
+"Chest X-ray",
+"CT chest scan",
+"Bronchoscopy",
+"Lung biopsy"
+],
+
+"medicines":[
+"Chemotherapy",
+"Targeted therapy",
+"Immunotherapy",
+"Radiation therapy medicines when appropriate"
+]
+},
+
+
+{
+"id":"leukemia",
+"name":"Leukemia",
+"system":"Blood System",
+"category":"Hematology / Oncology",
+
+"description":"Leukemia is a cancer of blood-forming tissues, including bone marrow, causing abnormal production of white blood cells.",
+
+"symptoms":[
+"Persistent fatigue",
+"Frequent infections",
+"Easy bruising",
+"Bleeding problems",
+"Fever",
+"Bone pain"
+],
+
+"causes":[
+"Genetic mutations",
+"Previous radiation exposure",
+"Certain chemical exposures",
+"Chromosomal abnormalities"
+],
+
+"diagnosis":[
+"Complete blood count",
+"Peripheral blood smear",
+"Bone marrow examination",
+"Genetic testing"
+],
+
+"medicines":[
+"Chemotherapy",
+"Targeted medicines",
+"Immunotherapy",
+"Stem cell transplantation in selected patients"
+]
+},
+
+
+{
+"id":"lymphoma",
+"name":"Lymphoma",
+"system":"Lymphatic System",
+"category":"Hematology / Oncology",
+
+"description":"Lymphoma is a cancer affecting lymphocytes, a type of white blood cell involved in immune function.",
+
+"symptoms":[
+"Swollen lymph nodes",
+"Fever",
+"Night sweats",
+"Unexplained weight loss",
+"Persistent fatigue"
+],
+
+"causes":[
+"Genetic changes in lymphocytes",
+"Immune system disorders",
+"Certain viral infections"
+],
+
+"diagnosis":[
+"Lymph node biopsy",
+"Blood tests",
+"Imaging studies",
+"Bone marrow testing"
+],
+
+"medicines":[
+"Chemotherapy",
+"Immunotherapy",
+"Targeted therapy",
+"Radiotherapy in selected cases"
+]
+},
+
+
+{
+"id":"appendicitis",
+"name":"Appendicitis",
+"system":"Gastrointestinal System",
+"category":"General Surgery",
+
+"description":"Appendicitis is inflammation of the appendix, usually caused by blockage and bacterial growth. It commonly requires urgent medical evaluation.",
+
+"symptoms":[
+"Pain starting near the navel and moving to the right lower abdomen",
+"Fever",
+"Nausea",
+"Vomiting",
+"Loss of appetite"
+],
+
+"causes":[
+"Appendix blockage",
+"Fecal obstruction",
+"Infection",
+"Inflammation"
+],
+
+"diagnosis":[
+"Physical examination",
+"Blood tests",
+"Ultrasound abdomen",
+"CT abdomen"
+],
+
+"medicines":[
+"Antibiotics",
+"Pain management",
+"Surgical removal of appendix when required"
+]
+},
+
+
+{
+"id":"gallstones",
+"name":"Gallstones",
+"system":"Gastrointestinal System",
+"category":"Gastroenterology",
+
+"description":"Gallstones are hardened deposits that form inside the gallbladder and may block bile flow, causing pain and inflammation.",
+
+"symptoms":[
+"Right upper abdominal pain",
+"Nausea",
+"Vomiting",
+"Pain after fatty meals",
+"Jaundice in complications"
+],
+
+"causes":[
+"Excess cholesterol in bile",
+"Gallbladder dysfunction",
+"Obesity",
+"Rapid weight loss",
+"Genetic factors"
+],
+
+"diagnosis":[
+"Abdominal ultrasound",
+"Liver function tests",
+"CT scan or MRI when required"
+],
+
+"medicines":[
+"Pain medicines",
+"Medicines to dissolve selected cholesterol stones",
+"Surgical removal of gallbladder when indicated"
+]
+},
+
+
+{
+"id":"sepsis",
+"name":"Sepsis",
+"system":"Whole Body",
+"category":"Emergency Medicine",
+
+"description":"Sepsis is a life-threatening condition caused by an extreme immune response to infection, leading to organ dysfunction.",
+
+"symptoms":[
+"Fever or low temperature",
+"Rapid heart rate",
+"Rapid breathing",
+"Confusion",
+"Low blood pressure",
+"Reduced urine output"
+],
+
+"causes":[
+"Severe bacterial infection",
+"Severe viral infection",
+"Fungal infection",
+"Infections spreading into bloodstream"
+],
+
+"diagnosis":[
+"Blood tests",
+"Blood cultures",
+"Organ function tests",
+"Clinical assessment"
+],
+
+"medicines":[
+"Intravenous antibiotics",
+"Fluids",
+"Medicines to support blood pressure",
+"Organ support treatments"
+]
+},
+
+
+{
+"id":"heat-stroke",
+"name":"Heat Stroke",
+"system":"Whole Body",
+"category":"Emergency Medicine",
+
+"description":"Heat stroke is a severe heat-related illness where body temperature rises dangerously and normal cooling mechanisms fail.",
+
+"symptoms":[
+"Very high body temperature",
+"Confusion",
+"Loss of consciousness",
+"Hot dry skin or heavy sweating",
+"Seizures"
+],
+
+"causes":[
+"Extreme heat exposure",
+"Heavy physical activity in hot environments",
+"Dehydration",
+"Failure of body temperature regulation"
+],
+
+"diagnosis":[
+"Body temperature measurement",
+"Clinical examination",
+"Blood tests to assess complications"
+],
+
+"medicines":[
+"Rapid cooling methods",
+"Fluid replacement",
+"Treatment of complications"
+]
+},
+
+
+{
+"id":"urinary-tract-infection",
+"name":"Urinary Tract Infection (UTI)",
+"system":"Renal System",
+"category":"Urology / Infectious Disease",
+
+"description":"A urinary tract infection is an infection affecting the kidneys, ureters, bladder, or urethra, most commonly caused by bacteria.",
+
+"symptoms":[
+"Burning during urination",
+"Frequent urination",
+"Lower abdominal pain",
+"Cloudy urine",
+"Fever in kidney infection"
+],
+
+"causes":[
+"Bacterial infection",
+"Urinary blockage",
+"Poor urinary drainage",
+"Certain medical conditions"
+],
+
+"diagnosis":[
+"Urine routine examination",
+"Urine culture",
+"Imaging in recurrent cases"
+],
+
+"medicines":[
+"Antibiotics based on infection type",
+"Pain-relieving medicines",
+"Hydration support"
+]
+}
+
+
+]
+]

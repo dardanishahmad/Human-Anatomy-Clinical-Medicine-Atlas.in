@@ -1,0 +1,428 @@
+[
+  {
+    "id": "epilepsy",
+    "name": "Epilepsy",
+    "system": "Nervous System",
+    "category": "Neurology",
+    "description": "Epilepsy is a neurological disorder characterized by recurrent seizures caused by abnormal electrical activity in the brain.",
+
+    "symptoms": [
+      "Seizures",
+      "Temporary confusion",
+      "Loss of awareness",
+      "Uncontrolled movements"
+    ],
+
+    "causes": [
+      "Genetic factors",
+      "Brain injury",
+      "Stroke",
+      "Brain infections"
+    ],
+
+    "diagnosis": [
+      "EEG",
+      "MRI Brain",
+      "Neurological assessment"
+    ],
+
+    "medicines": [
+      "Levetiracetam",
+      "Sodium Valproate",
+      "Carbamazepine"
+    ]
+  },
+
+
+  {
+    "id": "ischemic-stroke",
+    "name": "Ischemic Stroke",
+    "system": "Nervous System",
+    "category": "Neurology",
+
+    "description": "An ischemic stroke occurs when a blood clot blocks blood flow to part of the brain, causing reduced oxygen supply.",
+
+    "symptoms": [
+      "Sudden weakness",
+      "Speech difficulty",
+      "Facial drooping",
+      "Loss of coordination"
+    ],
+
+    "causes": [
+      "Blood clots",
+      "Atherosclerosis",
+      "Heart-related emboli"
+    ],
+
+    "diagnosis": [
+      "CT Brain Scan",
+      "MRI",
+      "Blood tests"
+    ],
+
+    "medicines": [
+      "Alteplase (tPA)",
+      "Antiplatelet therapy"
+    ]
+  },
+
+
+  {
+    "id": "hypertension",
+    "name": "Hypertension",
+    "system": "Cardiovascular System",
+    "category": "Cardiology",
+
+    "description": "Hypertension is a chronic condition where blood pressure remains elevated, increasing cardiovascular risk.",
+
+    "symptoms": [
+      "Often asymptomatic",
+      "Headache",
+      "Dizziness",
+      "Blurred vision"
+    ],
+
+    "causes": [
+      "Genetics",
+      "High sodium intake",
+      "Obesity",
+      "Lifestyle factors"
+    ],
+
+    "diagnosis": [
+      "Blood pressure measurement",
+      "Cardiovascular assessment"
+    ],
+
+    "medicines": [
+      "Amlodipine",
+      "Telmisartan",
+      "Lisinopril"
+    ]
+  },
+
+
+  {
+    "id": "heart-failure",
+    "name": "Heart Failure",
+    "system": "Cardiovascular System",
+    "category": "Cardiology",
+
+    "description": "Heart failure occurs when the heart cannot pump blood efficiently enough to meet the body's needs.",
+
+    "symptoms": [
+      "Shortness of breath",
+      "Fatigue",
+      "Leg swelling",
+      "Reduced exercise tolerance"
+    ],
+
+    "causes": [
+      "Coronary artery disease",
+      "Hypertension",
+      "Heart muscle damage"
+    ],
+
+    "diagnosis": [
+      "Echocardiogram",
+      "ECG",
+      "Blood tests"
+    ],
+
+    "medicines": [
+      "Furosemide",
+      "Metoprolol",
+      "ACE inhibitors"
+    ]
+  },
+
+
+  {
+    "id": "asthma",
+    "name": "Asthma",
+    "system": "Respiratory System",
+    "category": "Pulmonology",
+
+    "description": "Asthma is a chronic inflammatory airway disease causing episodes of breathing difficulty.",
+
+    "symptoms": [
+      "Wheezing",
+      "Cough",
+      "Chest tightness",
+      "Shortness of breath"
+    ],
+
+    "causes": [
+      "Allergens",
+      "Air pollution",
+      "Genetic susceptibility"
+    ],
+
+    "diagnosis": [
+      "Pulmonary function tests",
+      "Clinical examination"
+    ],
+
+    "medicines": [
+      "Salbutamol",
+      "Budesonide"
+    ]
+  },
+
+
+  {
+    "id": "pneumonia",
+    "name": "Pneumonia",
+    "system": "Respiratory System",
+    "category": "Infectious Disease",
+
+    "description": "Pneumonia is an infection causing inflammation of the lung air sacs.",
+
+    "symptoms": [
+      "Fever",
+      "Cough",
+      "Chest pain",
+      "Breathing difficulty"
+    ],
+
+    "causes": [
+      "Bacterial infection",
+      "Viral infection",
+      "Fungal infection"
+    ],
+
+    "diagnosis": [
+      "Chest X-ray",
+      "Blood tests",
+      "Sputum analysis"
+    ],
+
+    "medicines": [
+      "Amoxicillin-Clavulanate",
+      "Azithromycin"
+    ]
+  },
+
+
+  {
+    "id": "diabetes",
+    "name": "Diabetes Mellitus",
+    "system": "Endocrine System",
+    "category": "Metabolic Disease",
+
+    "description": "Diabetes is a metabolic disorder characterized by elevated blood glucose levels.",
+
+    "symptoms": [
+      "Increased thirst",
+      "Frequent urination",
+      "Fatigue",
+      "Weight changes"
+    ],
+
+    "causes": [
+      "Insulin deficiency",
+      "Insulin resistance",
+      "Genetic factors"
+    ],
+
+    "diagnosis": [
+      "Blood glucose testing",
+      "HbA1c testing"
+    ],
+
+    "medicines": [
+      "Insulin",
+      "Metformin"
+    ]
+  },
+
+
+  {
+    "id": "hypothyroidism",
+    "name": "Hypothyroidism",
+    "system": "Endocrine System",
+    "category": "Hormonal Disorder",
+
+    "description": "Hypothyroidism occurs when the thyroid gland produces insufficient thyroid hormones.",
+
+    "symptoms": [
+      "Fatigue",
+      "Weight gain",
+      "Cold intolerance",
+      "Slow metabolism"
+    ],
+
+    "causes": [
+      "Autoimmune disease",
+      "Thyroid surgery",
+      "Iodine imbalance"
+    ],
+
+    "diagnosis": [
+      "TSH testing",
+      "Thyroid hormone levels"
+    ],
+
+    "medicines": [
+      "Levothyroxine"
+    ]
+  },
+
+
+  {
+    "id": "chronic-kidney-disease",
+    "name": "Chronic Kidney Disease",
+    "system": "Renal System",
+    "category": "Nephrology",
+
+    "description": "Chronic kidney disease is a progressive loss of kidney function over time.",
+
+    "symptoms": [
+      "Swelling",
+      "Fatigue",
+      "Changes in urination",
+      "Electrolyte imbalance"
+    ],
+
+    "causes": [
+      "Diabetes",
+      "Hypertension",
+      "Kidney injury"
+    ],
+
+    "diagnosis": [
+      "Kidney function tests",
+      "Urine analysis"
+    ],
+
+    "medicines": [
+      "Torsemide",
+      "Sodium Bicarbonate"
+    ]
+  },
+
+
+  {
+    "id": "rheumatoid-arthritis",
+    "name": "Rheumatoid Arthritis",
+    "system": "Musculoskeletal System",
+    "category": "Rheumatology",
+
+    "description": "Rheumatoid arthritis is an autoimmune disease causing chronic joint inflammation.",
+
+    "symptoms": [
+      "Joint pain",
+      "Swelling",
+      "Morning stiffness"
+    ],
+
+    "causes": [
+      "Autoimmune dysfunction",
+      "Genetic factors"
+    ],
+
+    "diagnosis": [
+      "Blood tests",
+      "Imaging studies"
+    ],
+
+    "medicines": [
+      "Methotrexate",
+      "Adalimumab"
+    ]
+  },
+
+
+  {
+    "id": "osteoporosis",
+    "name": "Osteoporosis",
+    "system": "Musculoskeletal System",
+    "category": "Bone Disease",
+
+    "description": "Osteoporosis is a condition where bones become weak and more likely to fracture.",
+
+    "symptoms": [
+      "Fragile bones",
+      "Fractures",
+      "Back pain"
+    ],
+
+    "causes": [
+      "Aging",
+      "Hormonal changes",
+      "Calcium deficiency"
+    ],
+
+    "diagnosis": [
+      "Bone density scan"
+    ],
+
+    "medicines": [
+      "Alendronate"
+    ]
+  },
+
+
+  {
+    "id": "acne",
+    "name": "Acne Vulgaris",
+    "system": "Dermatological System",
+    "category": "Skin Disease",
+
+    "description": "Acne is a skin condition involving clogged pores, inflammation, and increased oil production.",
+
+    "symptoms": [
+      "Pimples",
+      "Blackheads",
+      "Inflamed lesions"
+    ],
+
+    "causes": [
+      "Hormonal changes",
+      "Excess sebum production",
+      "Skin inflammation"
+    ],
+
+    "diagnosis": [
+      "Clinical examination"
+    ],
+
+    "medicines": [
+      "Isotretinoin",
+      "Tretinoin"
+    ]
+  },
+
+
+  {
+    "id": "eczema",
+    "name": "Atopic Dermatitis (Eczema)",
+    "system": "Dermatological System",
+    "category": "Skin Disease",
+
+    "description": "Eczema is an inflammatory skin condition causing itching, dryness, and irritation.",
+
+    "symptoms": [
+      "Itching",
+      "Dry skin",
+      "Redness",
+      "Skin irritation"
+    ],
+
+    "causes": [
+      "Immune dysfunction",
+      "Environmental triggers",
+      "Genetic factors"
+    ],
+
+    "diagnosis": [
+      "Clinical examination"
+    ],
+
+    "medicines": [
+      "Hydrocortisone",
+      "Tacrolimus ointment"
+    ]
+  }
+]

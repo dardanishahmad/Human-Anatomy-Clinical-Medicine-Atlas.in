@@ -1,0 +1,829 @@
+/* ==========================================
+   HumanAtlas
+   Interactive Anatomy Explorer Styles
+========================================== */
+
+
+/* ==========================
+   Anatomy Hero
+========================== */
+
+
+.anatomy-hero {
+
+    min-height:45vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    padding-top:140px;
+
+    width:min(1200px,90%);
+
+    margin:auto;
+
+}
+
+
+
+.anatomy-hero h1 {
+
+    font-size:clamp(45px,6vw,75px);
+
+    margin-top:20px;
+
+    font-weight:900;
+
+}
+
+
+.anatomy-hero h1 span {
+
+    background:
+    linear-gradient(
+    135deg,
+    #2563eb,
+    #06b6d4
+    );
+
+    -webkit-background-clip:text;
+
+    color:transparent;
+
+}
+
+
+.anatomy-hero p {
+
+    margin-top:25px;
+
+    max-width:700px;
+
+    color:#b8c7e0;
+
+    font-size:20px;
+
+    line-height:1.7;
+
+}
+
+
+
+
+
+/* ==========================
+   Search
+========================== */
+
+
+.anatomy-search {
+
+    width:min(800px,90%);
+
+    margin:40px auto;
+
+}
+
+
+
+.anatomy-search input {
+
+
+    width:100%;
+
+
+    padding:20px 30px;
+
+
+    border-radius:50px;
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    backdrop-filter:blur(20px);
+
+
+    color:white;
+
+
+    font-size:18px;
+
+
+    outline:none;
+
+
+}
+
+
+
+.anatomy-search input::placeholder {
+
+    color:#94a3b8;
+
+}
+
+
+
+
+
+/* ==========================
+   Main Explorer
+========================== */
+
+
+.anatomy-container {
+
+
+    width:min(1200px,90%);
+
+
+    margin:70px auto;
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    1fr 1fr;
+
+
+    gap:40px;
+
+
+}
+
+
+
+
+
+/* ==========================
+   Body Display
+========================== */
+
+
+.body-view {
+
+
+    min-height:650px;
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    justify-content:center;
+
+
+}
+
+
+
+
+
+.human-outline {
+
+
+    position:relative;
+
+
+    width:350px;
+
+
+    height:600px;
+
+
+    border-radius:180px;
+
+
+    background:
+
+
+    radial-gradient(
+
+    circle,
+
+    rgba(37,99,235,.35),
+
+    transparent 65%
+
+    );
+
+
+    border:
+
+    2px solid rgba(6,182,212,.35);
+
+
+    box-shadow:
+
+
+    0 0 60px rgba(6,182,212,.25);
+
+
+}
+
+
+
+
+
+/* ==========================
+   Organ Buttons
+========================== */
+
+
+.organ-btn {
+
+
+    position:absolute;
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    align-items:center;
+
+
+    justify-content:center;
+
+
+    width:90px;
+
+
+    height:90px;
+
+
+    border-radius:50%;
+
+
+    border:
+
+    1px solid rgba(255,255,255,.25);
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    backdrop-filter:blur(15px);
+
+
+    color:white;
+
+
+    cursor:pointer;
+
+
+    font-size:35px;
+
+
+    transition:.35s ease;
+
+
+}
+
+
+
+.organ-btn span {
+
+
+    font-size:12px;
+
+
+    margin-top:5px;
+
+
+}
+
+
+
+
+.organ-btn:hover {
+
+
+    transform:
+
+    scale(1.15);
+
+
+    background:
+
+    rgba(6,182,212,.3);
+
+
+    box-shadow:
+
+
+    0 0 35px rgba(6,182,212,.7);
+
+
+}
+
+
+
+
+
+
+/* Organ Positions */
+
+
+.brain-btn {
+
+
+    top:70px;
+
+    left:130px;
+
+
+}
+
+
+
+.heart-btn {
+
+
+    top:210px;
+
+    left:130px;
+
+
+}
+
+
+
+.lungs-btn {
+
+
+    top:300px;
+
+    left:125px;
+
+
+}
+
+
+
+.liver-btn {
+
+
+    top:390px;
+
+    left:90px;
+
+
+}
+
+
+
+.kidney-btn {
+
+
+    top:420px;
+
+    right:70px;
+
+
+}
+
+
+
+.bone-btn {
+
+
+    bottom:40px;
+
+    left:130px;
+
+
+}
+
+
+
+
+
+/* ==========================
+   Information Panel
+========================== */
+
+
+.organ-panel {
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    backdrop-filter:blur(25px);
+
+
+    border-radius:30px;
+
+
+    padding:35px;
+
+
+    min-height:600px;
+
+
+}
+
+
+
+
+.panel-header {
+
+
+    border-bottom:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    padding-bottom:25px;
+
+
+}
+
+
+
+.panel-header h2 {
+
+
+    font-size:35px;
+
+
+}
+
+
+
+.panel-header span {
+
+
+    color:#38bdf8;
+
+
+}
+
+
+
+
+
+.panel-content {
+
+
+    margin-top:30px;
+
+
+}
+
+
+
+.panel-content p {
+
+
+    color:#cbd5e1;
+
+
+    line-height:1.7;
+
+
+}
+
+
+
+
+.info-section {
+
+
+    margin-top:30px;
+
+
+}
+
+
+
+.info-section h3 {
+
+
+    color:white;
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+
+.info-section ul {
+
+
+    list-style:none;
+
+
+}
+
+
+
+
+.info-section li {
+
+
+    padding:12px 15px;
+
+
+    margin-bottom:10px;
+
+
+    background:
+
+    rgba(255,255,255,.06);
+
+
+    border-radius:12px;
+
+
+    color:#cbd5e1;
+
+
+}
+
+
+
+
+
+/* ==========================
+   System Preview
+========================== */
+
+
+.anatomy-systems {
+
+
+    width:min(1200px,90%);
+
+
+    margin:100px auto;
+
+
+    text-align:center;
+
+
+}
+
+
+
+.anatomy-systems h2 {
+
+
+    font-size:42px;
+
+
+    margin-bottom:40px;
+
+
+}
+
+
+
+.system-mini-grid {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(3,1fr);
+
+
+    gap:25px;
+
+
+}
+
+
+
+.system-mini-grid div {
+
+
+    padding:25px;
+
+
+    border-radius:20px;
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    font-size:20px;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+.system-mini-grid div:hover {
+
+
+    transform:
+
+    translateY(-8px);
+
+
+    border-color:#06b6d4;
+
+
+}
+
+
+
+
+
+/* ==========================
+   Responsive
+========================== */
+
+
+@media(max-width:900px){
+
+
+    .anatomy-container {
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+
+    .body-view {
+
+
+        min-height:500px;
+
+
+    }
+
+
+}
+
+
+
+
+@media(max-width:600px){
+
+
+
+    .human-outline {
+
+
+        width:280px;
+
+
+        height:500px;
+
+
+    }
+
+
+
+    .organ-btn {
+
+
+        width:70px;
+
+
+        height:70px;
+
+
+        font-size:25px;
+
+
+    }
+
+
+
+    .brain-btn {
+
+
+        left:105px;
+
+
+        top:60px;
+
+
+    }
+
+
+
+    .heart-btn {
+
+
+        left:105px;
+
+
+        top:170px;
+
+
+    }
+
+
+
+    .lungs-btn {
+
+
+        left:105px;
+
+
+        top:250px;
+
+
+    }
+
+
+
+    .liver-btn {
+
+
+        left:70px;
+
+
+        top:320px;
+
+
+    }
+
+
+
+    .kidney-btn {
+
+
+        right:45px;
+
+
+        top:350px;
+
+
+    }
+
+
+
+    .bone-btn {
+
+
+        left:105px;
+
+
+        bottom:30px;
+
+
+    }
+
+
+
+    .system-mini-grid {
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+}

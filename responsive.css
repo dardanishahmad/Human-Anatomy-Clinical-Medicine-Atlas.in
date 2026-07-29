@@ -1,0 +1,1205 @@
+/* ==========================================
+   HumanAtlas
+   Responsive Design System
+========================================== */
+
+
+/* ==========================
+   Large Tablets / Small Laptop
+========================== */
+
+
+@media (max-width: 1100px) {
+
+
+    .hero {
+
+
+        flex-direction:column;
+
+
+        text-align:center;
+
+
+        padding-top:160px;
+
+
+    }
+
+
+
+    .hero-content {
+
+
+        max-width:800px;
+
+
+    }
+
+
+
+    .hero-buttons {
+
+
+        justify-content:center;
+
+
+    }
+
+
+
+    .human-model {
+
+
+        width:350px;
+
+        height:450px;
+
+
+    }
+
+
+
+
+    .statistics {
+
+
+        grid-template-columns:
+
+        repeat(2,1fr);
+
+
+    }
+
+
+
+    .system-grid,
+    .feature-grid {
+
+
+        grid-template-columns:
+
+        repeat(2,1fr);
+
+
+    }
+
+
+}
+
+
+
+
+
+/* ==========================
+   Tablet
+========================== */
+
+
+@media (max-width:850px) {
+
+
+
+    .navbar {
+
+
+        padding:15px 20px;
+
+
+    }
+
+
+
+
+    .navbar nav {
+
+
+        display:none;
+
+
+    }
+
+
+
+
+    .hero h1 {
+
+
+        font-size:55px;
+
+
+    }
+
+
+
+
+    .section-title h2 {
+
+
+        font-size:36px;
+
+
+    }
+
+
+
+    .system-grid,
+    .feature-grid {
+
+
+        grid-template-columns:
+
+        1fr;
+
+
+    }
+
+
+}
+
+
+
+
+
+/* ==========================
+   Mobile
+========================== */
+
+
+@media (max-width:600px) {
+
+
+
+    body {
+
+
+        overflow-x:hidden;
+
+
+    }
+
+
+
+
+
+    .navbar {
+
+
+        width:92%;
+
+
+        border-radius:30px;
+
+
+    }
+
+
+
+
+    .logo {
+
+
+        font-size:18px;
+
+
+    }
+
+
+
+
+    .theme-btn {
+
+
+        width:38px;
+
+        height:38px;
+
+
+    }
+
+
+
+
+
+    .hero {
+
+
+        width:90%;
+
+
+        padding-top:130px;
+
+
+    }
+
+
+
+
+
+    .badge {
+
+
+        font-size:12px;
+
+
+    }
+
+
+
+
+
+    .hero h1 {
+
+
+        font-size:42px;
+
+
+    }
+
+
+
+
+
+    .hero p {
+
+
+        font-size:16px;
+
+
+    }
+
+
+
+
+
+    .hero-buttons {
+
+
+        flex-direction:column;
+
+
+        align-items:center;
+
+
+    }
+
+
+
+
+
+    .primary-btn,
+    .secondary-btn {
+
+
+        width:220px;
+
+
+        text-align:center;
+
+
+    }
+
+
+
+
+
+
+    .human-model {
+
+
+        transform:
+
+        scale(.8);
+
+
+        margin-top:-30px;
+
+
+    }
+
+
+
+
+
+
+    .statistics {
+
+
+        grid-template-columns:
+
+        1fr;
+
+
+        margin-top:50px;
+
+
+    }
+
+
+
+
+
+
+    .stat-card {
+
+
+        padding:25px;
+
+
+    }
+
+
+
+
+
+
+    .stat-card h2 {
+
+
+        font-size:38px;
+
+
+    }
+
+
+
+
+
+    .systems,
+    .features,
+    .about {
+
+
+        margin:80px auto;
+
+
+    }
+
+
+
+
+
+
+    .section-title h2 {
+
+
+        font-size:30px;
+
+
+    }
+
+
+
+
+
+
+    .section-title p {
+
+
+        font-size:15px;
+
+
+    }
+
+
+
+
+
+
+    .system-card,
+    .feature-card {
+
+
+        padding:25px;
+
+
+    }
+
+
+
+
+
+    footer {
+
+
+        padding:40px 20px;
+
+
+    }
+
+
+
+}
+
+
+
+
+
+/* ==========================
+   Extra Small Devices
+========================== */
+
+
+@media (max-width:380px) {
+
+
+
+    .hero h1 {
+
+
+        font-size:36px;
+
+
+    }
+
+
+
+
+    .human-model {
+
+
+        transform:
+
+        scale(.65);
+
+
+    }
+
+
+
+
+
+    .logo span:last-child {
+
+
+        display:none;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+/* ==========================
+   Landscape Mobile
+========================== */
+
+
+@media (max-height:500px)
+and (orientation:landscape) {
+
+
+    .hero {
+
+
+        padding-top:100px;
+
+
+    }
+
+
+
+    .human-model {
+
+
+        transform:
+
+        scale(.65);
+
+
+    }
+
+
+}
+
+/* =====================================
+   HumanAtlas Premium Mobile Navigation
+===================================== */
+
+
+.nav-actions{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+}
+
+
+
+.mobile-toggle{
+
+
+display:none;
+
+
+width:42px;
+
+height:42px;
+
+
+border-radius:50%;
+
+
+border:1px solid rgba(255,255,255,.2);
+
+
+background:
+
+rgba(255,255,255,.1);
+
+
+color:white;
+
+
+font-size:22px;
+
+
+}
+
+
+
+
+
+.mobile-panel{
+
+
+position:fixed;
+
+
+top:0;
+
+
+right:-100%;
+
+
+width:320px;
+
+
+max-width:90%;
+
+
+height:100vh;
+
+
+padding:25px;
+
+
+background:
+
+linear-gradient(
+
+160deg,
+
+#071426,
+
+#020617
+
+);
+
+
+border-left:
+
+1px solid rgba(255,255,255,.15);
+
+
+backdrop-filter:
+
+blur(30px);
+
+
+z-index:9999;
+
+
+transition:.45s cubic-bezier(.77,0,.18,1);
+
+
+}
+
+
+
+
+
+.mobile-panel.active{
+
+
+right:0;
+
+
+}
+
+
+
+
+
+
+
+.mobile-header{
+
+
+display:flex;
+
+
+justify-content:space-between;
+
+
+align-items:center;
+
+
+margin-bottom:40px;
+
+
+}
+
+
+
+.mobile-close{
+
+
+width:40px;
+
+
+height:40px;
+
+
+border-radius:50%;
+
+
+border:none;
+
+
+background:
+
+rgba(255,255,255,.1);
+
+
+color:white;
+
+
+font-size:25px;
+
+
+}
+
+
+
+
+
+.mobile-panel a{
+
+
+display:flex;
+
+
+align-items:center;
+
+
+gap:15px;
+
+
+padding:16px;
+
+
+margin-bottom:10px;
+
+
+border-radius:18px;
+
+
+color:white;
+
+
+text-decoration:none;
+
+
+font-size:17px;
+
+
+background:
+
+rgba(255,255,255,.05);
+
+
+border:
+
+1px solid rgba(255,255,255,.08);
+
+
+transition:.3s;
+
+
+}
+
+
+
+
+
+.mobile-panel a:hover{
+
+
+background:
+
+rgba(6,182,212,.2);
+
+
+transform:translateX(5px);
+
+
+}
+
+
+
+
+
+
+@media(max-width:768px){
+
+
+.desktop-menu{
+
+
+display:none;
+
+
+}
+
+
+
+.mobile-toggle{
+
+
+display:block;
+
+
+}
+
+
+
+.navbar{
+
+
+padding:
+
+14px 18px;
+
+
+}
+
+
+
+.logo{
+
+
+font-size:18px;
+
+
+}
+
+
+}
+
+.mobile-menu-btn {
+
+display:none;
+
+}
+
+
+.mobile-menu {
+
+position:fixed;
+
+top:0;
+
+right:-100%;
+
+width:85%;
+
+height:100vh;
+
+background:#050b18;
+
+padding:80px 30px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:25px;
+
+transition:.4s;
+
+z-index:999;
+
+}
+
+
+.mobile-menu a {
+
+color:white;
+
+font-size:20px;
+
+text-decoration:none;
+
+}
+
+
+
+.mobile-menu.active {
+
+right:0;
+
+}
+
+
+
+.close-menu {
+
+position:absolute;
+
+top:20px;
+
+right:25px;
+
+font-size:30px;
+
+background:none;
+
+border:none;
+
+color:white;
+
+}
+
+
+
+@media(max-width:768px){
+
+
+.desktop-menu {
+
+display:none;
+
+}
+
+
+
+.mobile-menu-btn {
+
+display:block;
+
+width:42px;
+
+height:42px;
+
+border-radius:50%;
+
+border:none;
+
+font-size:22px;
+
+cursor:pointer;
+
+}
+
+
+}
+
+
+
+
+/* =====================================
+   HumanAtlas Premium Mobile Navigation
+===================================== */
+
+
+.nav-actions{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+}
+
+
+
+.mobile-toggle{
+
+
+display:none;
+
+
+width:42px;
+
+height:42px;
+
+
+border-radius:50%;
+
+
+border:1px solid rgba(255,255,255,.2);
+
+
+background:
+
+rgba(255,255,255,.1);
+
+
+color:white;
+
+
+font-size:22px;
+
+
+}
+
+
+
+
+
+.mobile-panel{
+
+
+position:fixed;
+
+
+top:0;
+
+
+right:-100%;
+
+
+width:320px;
+
+
+max-width:90%;
+
+
+height:100vh;
+
+
+padding:25px;
+
+
+background:
+
+linear-gradient(
+
+160deg,
+
+#071426,
+
+#020617
+
+);
+
+
+border-left:
+
+1px solid rgba(255,255,255,.15);
+
+
+backdrop-filter:
+
+blur(30px);
+
+
+z-index:9999;
+
+
+transition:.45s cubic-bezier(.77,0,.18,1);
+
+
+}
+
+
+
+
+
+.mobile-panel.active{
+
+
+right:0;
+
+
+}
+
+
+
+
+
+
+
+.mobile-header{
+
+
+display:flex;
+
+
+justify-content:space-between;
+
+
+align-items:center;
+
+
+margin-bottom:40px;
+
+
+}
+
+
+
+.mobile-close{
+
+
+width:40px;
+
+
+height:40px;
+
+
+border-radius:50%;
+
+
+border:none;
+
+
+background:
+
+rgba(255,255,255,.1);
+
+
+color:white;
+
+
+font-size:25px;
+
+
+}
+
+
+
+
+
+.mobile-panel a{
+
+
+display:flex;
+
+
+align-items:center;
+
+
+gap:15px;
+
+
+padding:16px;
+
+
+margin-bottom:10px;
+
+
+border-radius:18px;
+
+
+color:white;
+
+
+text-decoration:none;
+
+
+font-size:17px;
+
+
+background:
+
+rgba(255,255,255,.05);
+
+
+border:
+
+1px solid rgba(255,255,255,.08);
+
+
+transition:.3s;
+
+
+}
+
+
+
+
+
+.mobile-panel a:hover{
+
+
+background:
+
+rgba(6,182,212,.2);
+
+
+transform:translateX(5px);
+
+
+}
+
+
+
+
+
+
+@media(max-width:768px){
+
+
+.desktop-menu{
+
+
+display:none;
+
+
+}
+
+
+
+.mobile-toggle{
+
+
+display:block;
+
+
+}
+
+
+
+.navbar{
+
+
+padding:
+
+14px 18px;
+
+
+}
+
+
+
+.logo{
+
+
+font-size:18px;
+
+
+}
+
+
+}

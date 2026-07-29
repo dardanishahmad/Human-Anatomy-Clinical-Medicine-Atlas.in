@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>3D Human Anatomy | HumanAtlas</title>
+
+
+<meta name="description" content="Explore the human body through interactive 3D anatomy visualization.">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/three.css">
+
+<link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div class="background">
+
+<div class="aurora aurora-one"></div>
+
+<div class="aurora aurora-two"></div>
+
+</div>
+
+
+
+
+
+
+
+<header class="navbar">
+
+
+<div class="logo">
+
+<span class="logo-icon">
+🧬
+</span>
+
+<span>
+HumanAtlas
+</span>
+
+</div>
+
+
+
+
+<nav class="desktop-menu">
+
+
+<a href="index.html">
+Home
+</a>
+
+
+<a href="anatomy.html">
+🧠 Anatomy
+</a>
+
+
+<a href="diseases.html">
+🦠 Diseases
+</a>
+
+
+<a href="medicines.html">
+💊 Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+🤖 AI Assistant
+</a>
+
+
+<a href="emergency-guide.html">
+🚑 Emergency
+</a>
+
+</a>
+
+
+
+</nav>
+
+
+
+
+<div class="nav-actions">
+
+
+<button class="theme-btn">
+◐
+</button>
+
+
+<button class="mobile-toggle">
+
+☰
+
+</button>
+
+
+</div>
+
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<section class="three-hero">
+
+
+<div class="badge">
+
+Interactive Biology
+
+</div>
+
+
+
+<h1>
+
+3D Human
+
+<span>
+Anatomy Explorer
+</span>
+
+</h1>
+
+
+
+<p>
+
+Explore organs, systems, and biological structures in an immersive environment.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="viewer-container">
+
+
+
+<div id="bodyViewer">
+
+
+<!-- Three.js canvas inserted here -->
+
+
+</div>
+
+
+
+
+
+
+
+<div class="organ-panel">
+
+
+<h2>
+Organ Explorer
+</h2>
+
+
+
+<button 
+class="organ-select"
+data-organ="brain">
+
+🧠 Brain
+
+</button>
+
+
+
+<button 
+class="organ-select"
+data-organ="heart">
+
+❤️ Heart
+
+</button>
+
+
+
+<button 
+class="organ-select"
+data-organ="lungs">
+
+🫁 Lungs
+
+</button>
+
+
+
+<button 
+class="organ-select"
+data-organ="liver">
+
+🟤 Liver
+
+</button>
+
+
+
+<button 
+class="organ-select"
+data-organ="kidney">
+
+🫘 Kidney
+
+</button>
+
+
+
+<button 
+class="organ-select"
+data-organ="bones">
+
+🦴 Skeleton
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="organ-info">
+
+
+<h2 id="selectedOrgan">
+
+Select an Organ
+
+</h2>
+
+
+
+<p id="organDetails">
+
+Click an organ to view biological information.
+
+</p>
+
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="system-controls">
+
+
+<h2>
+Body Systems
+</h2>
+
+
+
+<div class="system-grid">
+
+
+<button>
+🧠 Nervous System
+</button>
+
+
+<button>
+❤️ Cardiovascular
+</button>
+
+
+<button>
+🫁 Respiratory
+</button>
+
+
+<button>
+🧬 Endocrine
+</button>
+
+
+<button>
+🦴 Musculoskeletal
+</button>
+
+
+<button>
+🛡 Immune System
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<footer>
+
+
+<h3>
+🧬 HumanAtlas
+</h3>
+
+
+<p>
+Interactive human biology education.
+</p>
+
+
+<small>
+
+Educational visualization only.
+
+</small>
+
+
+</footer>
+
+<div class="mobile-panel">
+
+
+<div class="mobile-header">
+
+
+<div class="logo">
+
+🧬 HumanAtlas
+
+</div>
+
+
+<button class="mobile-close">
+
+×
+
+</button>
+
+
+</div>
+
+
+
+
+<a href="index.html">
+🏠 Home
+</a>
+
+
+<a href="anatomy.html">
+🧠 Anatomy
+</a>
+
+
+<a href="diseases.html">
+🦠 Diseases
+</a>
+
+
+<a href="medicines.html">
+💊 Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+🤖 AI Assistant
+</a>
+
+
+<a href="health-dashboard.html">
+📊 Health Dashboard
+</a>
+
+
+<a href="3d-anatomy.html">
+🧬 3D Anatomy
+</a>
+
+
+<a href="emergency-guide.html">
+🚑 Emergency
+</a>
+
+
+<a href="quiz-academy.html">
+🎓 Academy
+</a>
+
+
+</div>
+
+
+
+
+
+
+<!-- Three.js Library -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+
+<script src="js/three-anatomy.js"></script>
+
+<script src="js/mobile-nav.js"></script>
+
+</body>
+
+
+</html>

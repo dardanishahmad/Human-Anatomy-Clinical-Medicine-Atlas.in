@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Human Anatomy Explorer | HumanAtlas</title>
+
+<meta name="description" content="Explore human body organs, systems, functions, diseases and medical information with HumanAtlas.">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/anatomy.css">
+
+<link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+
+<body>
+
+
+
+<div class="background">
+
+<div class="aurora aurora-one"></div>
+
+<div class="aurora aurora-two"></div>
+
+</div>
+
+
+
+
+
+<!-- Navigation -->
+
+<header class="navbar">
+
+
+<div class="logo">
+
+<span class="logo-icon">
+🧬
+</span>
+
+<span>
+HumanAtlas
+</span>
+
+</div>
+
+
+
+
+<nav class="desktop-menu">
+
+
+<a href="index.html">
+Home
+</a>
+
+
+<a href="diseases.html">
+🦠 Diseases
+</a>
+
+
+<a href="medicines.html">
+💊 Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+🤖 AI Assistant
+</a>
+
+
+<a href="3d-anatomy.html">
+🧬 3D Anatomy
+</a>
+</a>
+
+
+
+</nav>
+
+
+
+
+<div class="nav-actions">
+
+
+<button class="theme-btn">
+◐
+</button>
+
+
+<button class="mobile-toggle">
+
+☰
+
+</button>
+
+
+</div>
+
+
+
+</header>
+
+
+
+
+
+
+
+<!-- Anatomy Hero -->
+
+<section class="anatomy-hero">
+
+
+<div>
+
+
+<span class="badge">
+Interactive Biology Explorer
+</span>
+
+
+<h1>
+
+Explore The
+<span>
+Human Body
+</span>
+
+</h1>
+
+
+<p>
+
+Select an organ to discover its function, related diseases, and medical information.
+
+</p>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<!-- Search -->
+
+<section class="anatomy-search">
+
+
+<input 
+type="search"
+id="organSearch"
+placeholder="Search organ, system or disease..."
+>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- Main Explorer -->
+
+
+<section class="anatomy-container">
+
+
+
+
+
+<!-- Human Body Display -->
+
+
+<div class="body-view">
+
+
+
+<div class="human-outline">
+
+
+<button class="organ-btn brain-btn"
+data-organ="brain">
+
+🧠
+
+<span>
+Brain
+</span>
+
+</button>
+
+
+
+<button class="organ-btn heart-btn"
+data-organ="heart">
+
+❤️
+
+<span>
+Heart
+</span>
+
+</button>
+
+
+
+<button class="organ-btn lungs-btn"
+data-organ="lungs">
+
+🫁
+
+<span>
+Lungs
+</span>
+
+</button>
+
+
+
+<button class="organ-btn liver-btn"
+data-organ="liver">
+
+🟤
+
+<span>
+Liver
+</span>
+
+</button>
+
+
+
+<button class="organ-btn kidney-btn"
+data-organ="kidney">
+
+🫘
+
+<span>
+Kidney
+</span>
+
+</button>
+
+
+
+<button class="organ-btn bone-btn"
+data-organ="bones">
+
+🦴
+
+<span>
+Bones
+</span>
+
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- Information Panel -->
+
+
+<div class="organ-panel">
+
+
+
+<div class="panel-header">
+
+
+<h2 id="organName">
+
+Select an Organ
+
+</h2>
+
+
+<span id="organSystem">
+
+Human Anatomy
+
+</span>
+
+
+</div>
+
+
+
+
+
+<div class="panel-content">
+
+
+<p id="organDescription">
+
+Choose an organ from the human body map to view details.
+
+</p>
+
+
+
+<div class="info-section">
+
+
+<h3>
+Functions
+</h3>
+
+
+<ul id="organFunctions">
+
+<li>
+Waiting for selection...
+</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+<div class="info-section">
+
+
+<h3>
+Common Conditions
+</h3>
+
+
+<ul id="organDiseases">
+
+<li>
+Waiting for selection...
+</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+<div class="info-section">
+
+
+<h3>
+Associated Medicines
+</h3>
+
+
+<ul id="organMedicines">
+
+<li>
+Waiting for selection...
+</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- Systems Preview -->
+
+
+<section class="anatomy-systems">
+
+
+<h2>
+Explore Body Systems
+</h2>
+
+
+
+<div class="system-mini-grid">
+
+
+<div>
+🧠 Nervous
+</div>
+
+
+<div>
+❤️ Cardiovascular
+</div>
+
+
+<div>
+🫁 Respiratory
+</div>
+
+
+<div>
+🧬 Endocrine
+</div>
+
+
+<div>
+🩺 Renal
+</div>
+
+
+<div>
+🦴 Musculoskeletal
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<footer>
+
+
+<div class="footer-logo">
+🧬 HumanAtlas
+</div>
+
+
+<p>
+Interactive medical education platform.
+</p>
+
+
+<small>
+Educational purposes only. Always consult qualified healthcare professionals for medical advice.
+</small>
+
+
+</footer>
+
+
+<div class="mobile-panel">
+
+
+<div class="mobile-header">
+
+
+<div class="logo">
+
+🧬 HumanAtlas
+
+</div>
+
+
+<button class="mobile-close">
+
+×
+
+</button>
+
+
+</div>
+
+
+
+
+<a href="index.html">
+🏠 Home
+</a>
+
+
+<a href="anatomy.html">
+🧠 Anatomy
+</a>
+
+
+<a href="diseases.html">
+🦠 Diseases
+</a>
+
+
+<a href="medicines.html">
+💊 Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+🤖 AI Assistant
+</a>
+
+
+<a href="health-dashboard.html">
+📊 Health Dashboard
+</a>
+
+
+<a href="3d-anatomy.html">
+🧬 3D Anatomy
+</a>
+
+
+<a href="emergency-guide.html">
+🚑 Emergency
+</a>
+
+
+<a href="quiz-academy.html">
+🎓 Academy
+</a>
+
+
+</div>
+
+
+
+<script src="js/anatomy.js"></script>
+
+<script src="js/mobile-nav.js"></script>
+
+</body>
+
+</html>

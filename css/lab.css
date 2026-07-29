@@ -1,0 +1,742 @@
+/* ==========================================
+   HumanAtlas Medical Imaging Laboratory
+   Styles
+========================================== */
+
+
+
+/* ==========================
+   Lab Hero
+========================== */
+
+
+.lab-hero {
+
+
+    width:min(1100px,90%);
+
+
+    margin:150px auto 60px;
+
+
+    text-align:center;
+
+
+}
+
+
+
+.lab-hero h1 {
+
+
+    font-size:
+
+    clamp(45px,6vw,75px);
+
+
+    font-weight:900;
+
+
+    margin-top:25px;
+
+
+}
+
+
+
+.lab-hero h1 span {
+
+
+    background:
+
+    linear-gradient(
+
+    135deg,
+
+    #22d3ee,
+
+    #2563eb
+
+    );
+
+
+    -webkit-background-clip:text;
+
+
+    color:transparent;
+
+
+}
+
+
+
+.lab-hero p {
+
+
+    max-width:750px;
+
+
+    margin:25px auto;
+
+
+    color:#cbd5e1;
+
+
+    font-size:19px;
+
+
+    line-height:1.7;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Main Laboratory
+========================== */
+
+
+.lab-container {
+
+
+    width:min(1250px,90%);
+
+
+    margin:auto;
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    2fr 1fr;
+
+
+    gap:35px;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Image Viewer
+========================== */
+
+
+.image-viewer {
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    border-radius:35px;
+
+
+    overflow:hidden;
+
+
+    backdrop-filter:
+
+    blur(25px);
+
+
+}
+
+
+
+
+
+
+
+.viewer-header {
+
+
+    display:flex;
+
+
+    justify-content:space-between;
+
+
+    align-items:center;
+
+
+    padding:30px;
+
+
+    border-bottom:
+
+    1px solid rgba(255,255,255,.12);
+
+
+}
+
+
+
+.viewer-header h2 {
+
+
+    font-size:26px;
+
+
+}
+
+
+
+.viewer-header span {
+
+
+    color:#22d3ee;
+
+
+    background:
+
+    rgba(34,211,238,.15);
+
+
+    padding:8px 16px;
+
+
+    border-radius:30px;
+
+
+}
+
+
+
+
+
+
+
+.medical-image {
+
+
+    height:500px;
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    justify-content:center;
+
+
+    background:
+
+
+    radial-gradient(
+
+    circle,
+
+    rgba(6,182,212,.15),
+
+    transparent 60%
+
+    );
+
+
+}
+
+
+
+
+
+
+
+.scan-placeholder {
+
+
+    text-align:center;
+
+
+    font-size:100px;
+
+
+    animation:
+
+    floatImage 3s infinite alternate;
+
+
+}
+
+
+
+.scan-placeholder p {
+
+
+    font-size:18px;
+
+
+    color:#94a3b8;
+
+
+}
+
+
+
+
+
+@keyframes floatImage {
+
+
+    from {
+
+
+        transform:
+
+        translateY(0);
+
+
+    }
+
+
+    to {
+
+
+        transform:
+
+        translateY(-15px);
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Controls
+========================== */
+
+
+.image-controls {
+
+
+    display:flex;
+
+
+    gap:15px;
+
+
+    padding:25px;
+
+
+    flex-wrap:wrap;
+
+
+}
+
+
+
+
+
+.image-controls button {
+
+
+    flex:1;
+
+
+    min-width:120px;
+
+
+    padding:15px;
+
+
+    border-radius:50px;
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    color:white;
+
+
+    cursor:pointer;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.image-controls button:hover,
+
+
+.image-controls button.active {
+
+
+    background:
+
+    linear-gradient(
+
+    135deg,
+
+    #2563eb,
+
+    #06b6d4
+
+    );
+
+
+    transform:
+
+    translateY(-3px);
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Analysis Panel
+========================== */
+
+
+.analysis-panel {
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    gap:20px;
+
+
+}
+
+
+
+.analysis-panel > h2 {
+
+
+    font-size:32px;
+
+
+}
+
+
+
+
+
+.analysis-card {
+
+
+    padding:25px;
+
+
+    border-radius:25px;
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    backdrop-filter:
+
+    blur(20px);
+
+
+}
+
+
+
+
+
+.analysis-card h3 {
+
+
+    color:#22d3ee;
+
+
+    margin-bottom:12px;
+
+
+}
+
+
+
+
+
+.analysis-card p,
+
+
+.analysis-card li {
+
+
+    color:#cbd5e1;
+
+
+    line-height:1.7;
+
+
+}
+
+
+
+
+
+
+
+.analysis-card ul {
+
+
+    padding-left:20px;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Scan Library
+========================== */
+
+
+.scan-library {
+
+
+    width:min(1100px,90%);
+
+
+    margin:90px auto;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+
+.scan-library h2 {
+
+
+    font-size:40px;
+
+
+    margin-bottom:40px;
+
+
+}
+
+
+
+
+
+.scan-grid {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(4,1fr);
+
+
+    gap:20px;
+
+
+}
+
+
+
+
+
+.scan-grid button {
+
+
+    padding:35px 20px;
+
+
+    border-radius:30px;
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    color:white;
+
+
+    cursor:pointer;
+
+
+    font-size:17px;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.scan-grid button:hover {
+
+
+    border-color:#22d3ee;
+
+
+    background:
+
+    rgba(34,211,238,.15);
+
+
+    transform:
+
+    translateY(-8px);
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Responsive
+========================== */
+
+
+@media(max-width:1000px){
+
+
+.lab-container {
+
+
+    grid-template-columns:
+
+    1fr;
+
+
+}
+
+
+
+.scan-grid {
+
+
+    grid-template-columns:
+
+    repeat(2,1fr);
+
+
+}
+
+
+}
+
+
+
+@media(max-width:600px){
+
+
+.medical-image {
+
+
+    height:350px;
+
+
+}
+
+
+
+.scan-placeholder {
+
+
+    font-size:70px;
+
+
+}
+
+
+
+.scan-grid {
+
+
+    grid-template-columns:
+
+    1fr;
+
+
+}
+
+
+
+.viewer-header {
+
+
+    flex-direction:column;
+
+
+    gap:15px;
+
+
+}
+
+
+}

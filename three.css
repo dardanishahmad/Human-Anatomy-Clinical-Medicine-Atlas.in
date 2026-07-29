@@ -1,0 +1,696 @@
+/* ==========================================
+   HumanAtlas 3D Anatomy Styles
+========================================== */
+
+
+
+/* ==========================
+   Hero Section
+========================== */
+
+
+.three-hero {
+
+
+    width:min(1100px,90%);
+
+
+    margin:150px auto 50px;
+
+
+    text-align:center;
+
+
+}
+
+
+
+.three-hero h1 {
+
+
+    font-size:
+
+    clamp(45px,6vw,75px);
+
+
+    font-weight:900;
+
+
+    margin-top:25px;
+
+
+}
+
+
+
+.three-hero h1 span {
+
+
+    background:
+
+    linear-gradient(
+
+    135deg,
+
+    #22d3ee,
+
+    #2563eb
+
+    );
+
+
+    -webkit-background-clip:text;
+
+
+    color:transparent;
+
+
+}
+
+
+
+.three-hero p {
+
+
+    color:#cbd5e1;
+
+
+    font-size:19px;
+
+
+    max-width:750px;
+
+
+    margin:25px auto;
+
+
+    line-height:1.7;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Viewer Area
+========================== */
+
+
+.viewer-container {
+
+
+    width:min(1300px,95%);
+
+
+    height:750px;
+
+
+    margin:auto;
+
+
+    position:relative;
+
+
+    border-radius:40px;
+
+
+    overflow:hidden;
+
+
+    background:
+
+    rgba(255,255,255,.05);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    backdrop-filter:
+
+    blur(20px);
+
+
+    box-shadow:
+
+    0 40px 100px
+
+    rgba(0,0,0,.4);
+
+
+}
+
+
+
+
+
+
+
+#bodyViewer {
+
+
+    width:100%;
+
+
+    height:100%;
+
+
+}
+
+
+
+
+
+#bodyViewer canvas {
+
+
+    width:100% !important;
+
+
+    height:100% !important;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Organ Panel
+========================== */
+
+
+.organ-panel {
+
+
+    position:absolute;
+
+
+    top:30px;
+
+
+    left:30px;
+
+
+    width:250px;
+
+
+    padding:25px;
+
+
+    border-radius:25px;
+
+
+    background:
+
+    rgba(15,23,42,.75);
+
+
+    backdrop-filter:
+
+    blur(20px);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+}
+
+
+
+
+
+.organ-panel h2 {
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+
+.organ-select {
+
+
+    width:100%;
+
+
+    padding:14px;
+
+
+    margin-bottom:12px;
+
+
+    border-radius:20px;
+
+
+    border:none;
+
+
+    cursor:pointer;
+
+
+    color:white;
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.organ-select:hover,
+
+
+.organ-select.active {
+
+
+    background:
+
+    linear-gradient(
+
+    135deg,
+
+    #06b6d4,
+
+    #2563eb
+
+    );
+
+
+    transform:
+
+    translateX(8px);
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Organ Information
+========================== */
+
+
+.organ-info {
+
+
+    position:absolute;
+
+
+    right:30px;
+
+
+    bottom:30px;
+
+
+    width:350px;
+
+
+    padding:30px;
+
+
+    border-radius:30px;
+
+
+    background:
+
+    rgba(15,23,42,.8);
+
+
+    backdrop-filter:
+
+    blur(25px);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+}
+
+
+
+
+
+.organ-info h2 {
+
+
+    color:#22d3ee;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.organ-info p {
+
+
+    color:#cbd5e1;
+
+
+    line-height:1.7;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   System Controls
+========================== */
+
+
+.system-controls {
+
+
+    width:min(1100px,90%);
+
+
+    margin:80px auto;
+
+
+    text-align:center;
+
+
+}
+
+
+
+.system-controls h2 {
+
+
+    font-size:40px;
+
+
+    margin-bottom:35px;
+
+
+}
+
+
+
+
+
+.system-grid {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(3,1fr);
+
+
+    gap:20px;
+
+
+}
+
+
+
+
+
+.system-grid button {
+
+
+    padding:25px;
+
+
+    border-radius:25px;
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    color:white;
+
+
+    cursor:pointer;
+
+
+    font-size:16px;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.system-grid button:hover {
+
+
+    background:
+
+    rgba(6,182,212,.2);
+
+
+    border-color:#22d3ee;
+
+
+    transform:
+
+    translateY(-8px);
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Animation
+========================== */
+
+
+@keyframes floatPanel {
+
+
+    from {
+
+        transform:
+
+        translateY(0);
+
+    }
+
+
+    to {
+
+        transform:
+
+        translateY(-10px);
+
+    }
+
+
+}
+
+
+
+
+
+.organ-panel,
+
+
+.organ-info {
+
+
+    animation:
+
+    floatPanel 4s infinite alternate;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Mobile
+========================== */
+
+
+@media(max-width:900px){
+
+
+.viewer-container {
+
+
+    height:900px;
+
+
+}
+
+
+
+.organ-panel {
+
+
+    top:20px;
+
+
+    left:20px;
+
+
+    width:220px;
+
+
+}
+
+
+
+.organ-info {
+
+
+    left:20px;
+
+
+    right:20px;
+
+
+    bottom:20px;
+
+
+    width:auto;
+
+
+}
+
+
+
+.system-grid {
+
+
+    grid-template-columns:
+
+    1fr;
+
+
+}
+
+
+}
+
+
+
+
+@media(max-width:600px){
+
+
+.organ-panel {
+
+
+    position:relative;
+
+
+    width:auto;
+
+
+    margin:15px;
+
+
+    top:auto;
+
+
+    left:auto;
+
+
+}
+
+
+
+.viewer-container {
+
+
+    height:auto;
+
+
+    padding-bottom:40px;
+
+
+}
+
+
+
+#bodyViewer {
+
+
+    height:450px;
+
+
+}
+
+
+
+.organ-info {
+
+
+    position:relative;
+
+
+    margin:20px;
+
+
+    left:auto;
+
+
+    bottom:auto;
+
+
+}
+
+
+
+}

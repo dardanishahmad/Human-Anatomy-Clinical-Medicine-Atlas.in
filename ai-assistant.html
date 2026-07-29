@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>AI Medical Assistant | HumanAtlas</title>
+
+
+<meta name="description" content="HumanAtlas AI medical learning assistant for anatomy, diseases and medicine education.">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/ai.css">
+
+<link rel="stylesheet" href="css/responsive.css">
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="background">
+
+<div class="aurora aurora-one"></div>
+
+<div class="aurora aurora-two"></div>
+
+</div>
+
+
+
+
+
+
+
+
+<header class="navbar">
+
+
+<div class="logo">
+
+<span class="logo-icon">
+🧬
+</span>
+
+<span>
+HumanAtlas
+</span>
+
+</div>
+
+
+
+
+<nav class="desktop-menu">
+
+
+<a href="index.html">
+Home
+</a>
+
+
+<a href="anatomy.html">
+🧠 Anatomy
+</a>
+
+
+<a href="diseases.html">
+🦠 Diseases
+</a>
+
+
+<a href="medicines.html">
+💊 Medicines
+</a>
+
+
+<a href="quiz-academy.html">
+🎓 Quiz Academy
+</a>
+
+
+<a href="3d-anatomy.html">
+🧬 3D Anatomy
+</a>
+
+
+
+</nav>
+
+
+
+
+<div class="nav-actions">
+
+
+<button class="theme-btn">
+◐
+</button>
+
+
+<button class="mobile-toggle">
+
+☰
+
+</button>
+
+
+</div>
+
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<section class="ai-hero">
+
+
+<div class="badge">
+
+AI Medical Learning
+
+</div>
+
+
+
+<h1>
+
+HumanAtlas
+
+<span>
+AI Assistant
+</span>
+
+</h1>
+
+
+
+
+<p>
+
+Ask questions about anatomy, diseases, medicines, and human biology.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="ai-container">
+
+
+
+<div class="chat-window">
+
+
+
+<div class="chat-header">
+
+
+<div class="ai-avatar">
+
+🧠
+
+</div>
+
+
+<div>
+
+<h3>
+HumanAtlas AI
+</h3>
+
+
+<p>
+Medical Knowledge Assistant
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div 
+id="chatMessages"
+class="chat-messages">
+
+
+<div class="message ai-message">
+
+
+Hello 👋
+
+I can help explain:
+
+<ul>
+
+<li>Human anatomy</li>
+
+<li>Diseases</li>
+
+<li>Medicines</li>
+
+<li>Biological processes</li>
+
+</ul>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="chat-input-area">
+
+
+<input
+
+id="userQuestion"
+
+type="text"
+
+placeholder="Ask: What is diabetes? How does the heart work?"
+
+>
+
+
+
+<button id="sendQuestion">
+
+Send
+
+</button>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<section class="quick-topics">
+
+
+<h2>
+Explore Topics
+</h2>
+
+
+
+<div class="topic-grid">
+
+
+<button>
+🧠 Brain Function
+</button>
+
+
+<button>
+❤️ Heart Disease
+</button>
+
+
+<button>
+🫁 Lung Function
+</button>
+
+
+<button>
+🩸 Diabetes
+</button>
+
+
+<button>
+💊 Medicines
+</button>
+
+
+<button>
+🧬 DNA & Genetics
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<footer>
+
+
+<h3>
+🧬 HumanAtlas
+</h3>
+
+
+<p>
+Advanced medical education platform.
+</p>
+
+
+<small>
+
+Educational information only. Always consult healthcare professionals for medical decisions.
+
+</small>
+
+
+</footer>
+
+<div class="mobile-panel">
+
+
+<div class="mobile-header">
+
+
+<div class="logo">
+
+🧬 HumanAtlas
+
+</div>
+
+
+<button class="mobile-close">
+
+×
+
+</button>
+
+
+</div>
+
+
+
+
+<a href="index.html">
+🏠 Home
+</a>
+
+
+<a href="anatomy.html">
+🧠 Anatomy
+</a>
+
+
+<a href="diseases.html">
+🦠 Diseases
+</a>
+
+
+<a href="medicines.html">
+💊 Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+🤖 AI Assistant
+</a>
+
+
+<a href="health-dashboard.html">
+📊 Health Dashboard
+</a>
+
+
+<a href="3d-anatomy.html">
+🧬 3D Anatomy
+</a>
+
+
+<a href="emergency-guide.html">
+🚑 Emergency
+</a>
+
+
+<a href="quiz-academy.html">
+🎓 Academy
+</a>
+
+
+</div>
+
+
+
+
+
+<script src="js/ai.js"></script>
+
+<script src="js/mobile-nav.js"></script>
+
+
+</body>
+
+</html>

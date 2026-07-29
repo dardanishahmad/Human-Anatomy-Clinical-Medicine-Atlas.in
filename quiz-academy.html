@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Medical Quiz Academy | HumanAtlas</title>
+
+
+<meta name="description" content="Test your medical knowledge with anatomy, disease and pharmacology quizzes using HumanAtlas.">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/quiz.css">
+
+<link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="background">
+
+<div class="aurora aurora-one"></div>
+
+<div class="aurora aurora-two"></div>
+
+</div>
+
+
+
+
+
+
+
+<header class="navbar">
+
+
+<div class="logo">
+
+<span class="logo-icon">
+🧬
+</span>
+
+<span>
+HumanAtlas
+</span>
+
+</div>
+
+
+
+
+<nav class="desktop-menu">
+
+
+<a href="index.html">
+Home
+</a>
+
+
+<a href="anatomy.html">
+Anatomy
+</a>
+
+
+<a href="diseases.html">
+Diseases
+</a>
+
+
+<a href="medicines.html">
+Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+AI
+</a>
+
+
+<a href="3d-anatomy.html">
+3D
+</a>
+
+
+
+</nav>
+
+
+
+
+<div class="nav-actions">
+
+
+<button class="theme-btn">
+◐
+</button>
+
+
+<button class="mobile-toggle">
+
+☰
+
+</button>
+
+
+</div>
+
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<section class="quiz-hero">
+
+
+<div class="badge">
+
+Medical Learning Academy
+
+</div>
+
+
+
+<h1>
+
+Test Your
+
+<span>
+Medical Knowledge
+</span>
+
+</h1>
+
+
+
+<p>
+
+Challenge yourself with interactive quizzes covering anatomy, diseases, pharmacology and biology.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="quiz-categories">
+
+
+<h2>
+Choose Category
+</h2>
+
+
+
+<div class="category-grid">
+
+
+
+<button class="category-btn" data-category="anatomy">
+
+🧠
+
+Anatomy
+
+</button>
+
+
+
+
+<button class="category-btn" data-category="pharmacology">
+
+💊
+
+Pharmacology
+
+</button>
+
+
+
+
+<button class="category-btn" data-category="disease">
+
+🦠
+
+Diseases
+
+</button>
+
+
+
+
+<button class="category-btn" data-category="biology">
+
+🧬
+
+Biology
+
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="quiz-box">
+
+
+
+<div class="quiz-header">
+
+
+<h2 id="quizCategory">
+
+Select Quiz
+
+</h2>
+
+
+
+<div class="score">
+
+Score:
+
+<span id="score">
+
+0
+
+</span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<h3 id="question">
+
+Choose a category to begin.
+
+</h3>
+
+
+
+
+
+
+
+<div id="answers"
+class="answer-grid">
+
+
+</div>
+
+
+
+
+
+
+
+<button id="nextQuestion">
+
+Next Question
+
+</button>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="achievement">
+
+
+<h2>
+Learning Progress
+</h2>
+
+
+
+<div class="achievement-grid">
+
+
+<div>
+
+🏆
+
+<h3>
+Quiz Master
+
+</h3>
+
+<p>
+Complete multiple medical quizzes.</p>
+
+</div>
+
+
+
+
+<div>
+
+📚
+
+<h3>
+Knowledge Builder
+
+</h3>
+
+<p>
+Explore different medical topics.</p>
+
+</div>
+
+
+
+
+<div>
+
+🧬
+
+<h3>
+Human Biology Expert
+
+</h3>
+
+<p>
+Improve your understanding of life sciences.</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<footer>
+
+
+<h3>
+🧬 HumanAtlas
+</h3>
+
+
+<p>
+Interactive medical education platform.
+</p>
+
+
+<small>
+
+Educational learning tool only.
+
+</small>
+
+
+</footer>
+
+
+<div class="mobile-panel">
+
+
+<div class="mobile-header">
+
+
+<div class="logo">
+
+🧬 HumanAtlas
+
+</div>
+
+
+<button class="mobile-close">
+
+×
+
+</button>
+
+
+</div>
+
+
+
+
+<a href="index.html">
+🏠 Home
+</a>
+
+
+<a href="anatomy.html">
+🧠 Anatomy
+</a>
+
+
+<a href="diseases.html">
+🦠 Diseases
+</a>
+
+
+<a href="medicines.html">
+💊 Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+🤖 AI Assistant
+</a>
+
+
+<a href="health-dashboard.html">
+📊 Health Dashboard
+</a>
+
+
+<a href="3d-anatomy.html">
+🧬 3D Anatomy
+</a>
+
+
+<a href="emergency-guide.html">
+🚑 Emergency
+</a>
+
+
+
+</div>
+
+
+
+
+<script src="js/quiz.js"></script>
+
+<script src="js/mobile-nav.js"></script>
+
+
+</body>
+
+</html>

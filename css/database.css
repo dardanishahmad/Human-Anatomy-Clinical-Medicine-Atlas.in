@@ -1,0 +1,836 @@
+/* ==========================================
+   HumanAtlas
+   Disease & Medicine Database Styles
+========================================== */
+
+
+
+/* ==========================
+   Database Hero
+========================== */
+
+
+.database-hero {
+
+
+    width:min(1100px,90%);
+
+    margin:
+
+    150px auto 60px;
+
+
+    text-align:center;
+
+
+}
+
+
+
+.database-hero h1 {
+
+
+    font-size:
+
+    clamp(45px,6vw,75px);
+
+
+    font-weight:900;
+
+
+    margin-top:25px;
+
+
+}
+
+
+
+.database-hero h1 span {
+
+
+    background:
+
+    linear-gradient(
+
+    135deg,
+
+    #06b6d4,
+
+    #2563eb
+
+    );
+
+
+    -webkit-background-clip:text;
+
+
+    color:transparent;
+
+
+}
+
+
+
+.database-hero p {
+
+
+    margin:25px auto;
+
+
+    max-width:750px;
+
+
+    font-size:19px;
+
+
+    line-height:1.7;
+
+
+    color:#b8c7e0;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Search & Filters
+========================== */
+
+
+.database-tools {
+
+
+    width:min(1200px,90%);
+
+
+    margin:auto;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+.database-tools input {
+
+
+    width:100%;
+
+
+    padding:20px 30px;
+
+
+    border-radius:50px;
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    backdrop-filter:blur(20px);
+
+
+    color:white;
+
+
+    font-size:17px;
+
+
+    outline:none;
+
+
+}
+
+
+
+.database-tools input::placeholder {
+
+
+    color:#94a3b8;
+
+
+}
+
+
+
+
+
+.filter-buttons {
+
+
+    margin-top:30px;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    flex-wrap:wrap;
+
+
+    gap:15px;
+
+
+}
+
+
+
+.filter-buttons button {
+
+
+    padding:12px 22px;
+
+
+    border-radius:50px;
+
+
+    cursor:pointer;
+
+
+    color:white;
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    transition:.3s;
+
+
+}
+
+
+
+.filter-buttons button:hover,
+.filter-buttons button.active {
+
+
+    background:
+
+    linear-gradient(
+
+    135deg,
+
+    #2563eb,
+
+    #06b6d4
+
+    );
+
+
+    transform:
+
+    translateY(-3px);
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Database Cards
+========================== */
+
+
+.database-container {
+
+
+    width:min(1200px,90%);
+
+
+    margin:
+
+    70px auto;
+
+
+}
+
+
+
+.database-grid {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(3,1fr);
+
+
+    gap:30px;
+
+
+}
+
+
+
+
+
+
+
+.database-card {
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    backdrop-filter:blur(20px);
+
+
+    border-radius:25px;
+
+
+    padding:30px;
+
+
+    transition:.35s;
+
+
+    cursor:pointer;
+
+
+    animation:
+
+    fadeUp .7s ease;
+
+
+}
+
+
+
+.database-card:hover {
+
+
+    transform:
+
+    translateY(-10px);
+
+
+    border-color:#06b6d4;
+
+
+    box-shadow:
+
+    0 20px 50px
+
+    rgba(6,182,212,.25);
+
+
+}
+
+
+
+
+
+.card-icon {
+
+
+    width:60px;
+
+
+    height:60px;
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    justify-content:center;
+
+
+    border-radius:50%;
+
+
+    background:
+
+    rgba(6,182,212,.2);
+
+
+    font-size:30px;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+.database-card h2 {
+
+
+    font-size:25px;
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+.database-card .system {
+
+
+    color:#38bdf8;
+
+
+    font-size:14px;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.database-card p {
+
+
+    color:#cbd5e1;
+
+
+    line-height:1.6;
+
+
+}
+
+
+
+
+
+
+
+.card-tags {
+
+
+    margin-top:20px;
+
+
+    display:flex;
+
+
+    flex-wrap:wrap;
+
+
+    gap:8px;
+
+
+}
+
+
+
+.card-tags span {
+
+
+    padding:6px 12px;
+
+
+    background:
+
+    rgba(255,255,255,.1);
+
+
+    border-radius:20px;
+
+
+    font-size:12px;
+
+
+    color:#bae6fd;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Modal
+========================== */
+
+
+.modal {
+
+
+    position:fixed;
+
+
+    inset:0;
+
+
+    display:none;
+
+
+    align-items:center;
+
+
+    justify-content:center;
+
+
+    background:
+
+    rgba(0,0,0,.65);
+
+
+    backdrop-filter:blur(10px);
+
+
+    z-index:1000;
+
+
+    padding:20px;
+
+
+}
+
+
+
+.modal.show {
+
+
+    display:flex;
+
+
+}
+
+
+
+
+
+.modal-content {
+
+
+    width:min(700px,100%);
+
+
+    max-height:85vh;
+
+
+    overflow-y:auto;
+
+
+    background:
+
+    #0b1628;
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    border-radius:30px;
+
+
+    padding:40px;
+
+
+    position:relative;
+
+
+    animation:
+
+    modalOpen .4s ease;
+
+
+}
+
+
+
+@keyframes modalOpen {
+
+
+    from {
+
+
+        opacity:0;
+
+
+        transform:
+
+        scale(.8);
+
+
+    }
+
+
+    to {
+
+
+        opacity:1;
+
+
+        transform:
+
+        scale(1);
+
+
+    }
+
+
+}
+
+
+
+
+
+.close-btn {
+
+
+    position:absolute;
+
+
+    right:25px;
+
+
+    top:20px;
+
+
+    width:40px;
+
+
+    height:40px;
+
+
+    border-radius:50%;
+
+
+    border:none;
+
+
+    cursor:pointer;
+
+
+    background:
+
+    rgba(255,255,255,.1);
+
+
+    color:white;
+
+
+    font-size:25px;
+
+
+}
+
+
+
+
+.modal-content h2 {
+
+
+    font-size:36px;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.modal-section {
+
+
+    margin-top:30px;
+
+
+}
+
+
+
+.modal-section h3 {
+
+
+    color:#38bdf8;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.modal-section li {
+
+
+    list-style:none;
+
+
+    background:
+
+    rgba(255,255,255,.07);
+
+
+    padding:12px;
+
+
+    border-radius:12px;
+
+
+    margin-bottom:10px;
+
+
+    color:#cbd5e1;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Footer
+========================== */
+
+
+footer {
+
+
+    text-align:center;
+
+
+    padding:60px 20px;
+
+
+    color:#94a3b8;
+
+
+}
+
+
+
+footer h3 {
+
+
+    color:white;
+
+
+    font-size:28px;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   Responsive
+========================== */
+
+
+
+@media(max-width:1000px){
+
+
+    .database-grid {
+
+
+        grid-template-columns:
+
+        repeat(2,1fr);
+
+
+    }
+
+
+}
+
+
+
+
+@media(max-width:650px){
+
+
+    .database-grid {
+
+
+        grid-template-columns:
+
+        1fr;
+
+
+    }
+
+
+
+    .database-hero {
+
+
+        margin-top:120px;
+
+
+    }
+
+
+
+    .modal-content {
+
+
+        padding:25px;
+
+
+    }
+
+
+
+    .modal-content h2 {
+
+
+        font-size:28px;
+
+
+    }
+
+
+}

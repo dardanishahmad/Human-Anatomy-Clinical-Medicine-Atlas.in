@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Health Dashboard | HumanAtlas</title>
+
+
+<meta name="description" content="Track health metrics, BMI, wellness information and personal health education with HumanAtlas.">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/dashboard.css">
+
+<link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="background">
+
+<div class="aurora aurora-one"></div>
+
+<div class="aurora aurora-two"></div>
+
+</div>
+
+
+
+
+
+
+
+
+<header class="navbar">
+
+
+<div class="logo">
+
+<span class="logo-icon">
+🧬
+</span>
+
+<span>
+HumanAtlas
+</span>
+
+</div>
+
+
+
+
+<nav class="desktop-menu">
+
+
+<a href="index.html">
+Home
+</a>
+
+
+<a href="anatomy.html">
+Anatomy
+</a>
+
+
+<a href="diseases.html">
+Diseases
+</a>
+
+
+<a href="medicines.html">
+Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+AI
+</a>
+
+
+<a href="3d-anatomy.html">
+3D
+</a>
+
+
+
+</nav>
+
+
+
+
+<div class="nav-actions">
+
+
+<button class="theme-btn">
+◐
+</button>
+
+
+<button class="mobile-toggle">
+
+☰
+
+</button>
+
+
+</div>
+
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<section class="dashboard-hero">
+
+
+<div class="badge">
+
+Personal Health Center
+
+</div>
+
+
+
+<h1>
+
+Health
+
+<span>
+Dashboard
+</span>
+
+</h1>
+
+
+
+<p>
+
+Monitor wellness metrics and understand your body's important health indicators.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="dashboard-grid">
+
+
+
+
+
+
+<!-- BMI Calculator -->
+
+
+<div class="health-card">
+
+
+<div class="card-title">
+
+⚖️ BMI Calculator
+
+</div>
+
+
+
+<div class="input-group">
+
+
+<label>
+Height (cm)
+</label>
+
+
+<input 
+id="heightInput"
+type="number"
+placeholder="170"
+>
+
+
+</div>
+
+
+
+
+
+<div class="input-group">
+
+
+<label>
+Weight (kg)
+</label>
+
+
+<input 
+id="weightInput"
+type="number"
+placeholder="70"
+>
+
+
+</div>
+
+
+
+
+
+<button id="calculateBMI">
+
+Calculate BMI
+
+</button>
+
+
+
+
+<div class="result-box">
+
+<p id="bmiResult">
+
+BMI result appears here
+
+</p>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Vital Tracker -->
+
+
+<div class="health-card">
+
+
+<div class="card-title">
+
+❤️ Vital Information
+
+</div>
+
+
+
+<div class="metric">
+
+
+<span>
+Blood Pressure
+</span>
+
+
+<strong>
+120 / 80
+</strong>
+
+
+</div>
+
+
+
+
+<div class="metric">
+
+
+<span>
+Heart Rate
+</span>
+
+
+<strong>
+72 BPM
+</strong>
+
+
+</div>
+
+
+
+
+<div class="metric">
+
+
+<span>
+Blood Oxygen
+</span>
+
+
+<strong>
+98%
+</strong>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Wellness Tracker -->
+
+
+<div class="health-card">
+
+
+<div class="card-title">
+
+🌱 Daily Wellness
+
+</div>
+
+
+
+
+<div class="metric">
+
+
+<span>
+Water Intake
+</span>
+
+
+<strong>
+6 Glasses
+</strong>
+
+
+</div>
+
+
+
+
+<div class="metric">
+
+
+<span>
+Sleep
+</span>
+
+
+<strong>
+7 Hours
+</strong>
+
+
+</div>
+
+
+
+
+<div class="metric">
+
+
+<span>
+Activity
+</span>
+
+
+<strong>
+Active
+</strong>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="timeline-section">
+
+
+<h2>
+Health Timeline
+</h2>
+
+
+
+<div id="healthTimeline"
+class="timeline">
+
+
+<div class="timeline-item">
+
+<span>
+✓
+</span>
+
+Health dashboard created
+
+</div>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<footer>
+
+
+<h3>
+🧬 HumanAtlas
+</h3>
+
+
+<p>
+Digital health education platform.
+</p>
+
+
+<small>
+
+For educational purposes only. Personal medical decisions require professional healthcare advice.
+
+</small>
+
+
+</footer>
+
+
+<div class="mobile-panel">
+
+
+<div class="mobile-header">
+
+
+<div class="logo">
+
+🧬 HumanAtlas
+
+</div>
+
+
+<button class="mobile-close">
+
+×
+
+</button>
+
+
+</div>
+
+
+
+
+<a href="index.html">
+🏠 Home
+</a>
+
+
+<a href="anatomy.html">
+🧠 Anatomy
+</a>
+
+
+<a href="diseases.html">
+🦠 Diseases
+</a>
+
+
+<a href="medicines.html">
+💊 Medicines
+</a>
+
+
+<a href="ai-assistant.html">
+🤖 AI Assistant
+</a>
+
+
+<a href="health-dashboard.html">
+📊 Health Dashboard
+</a>
+
+
+<a href="3d-anatomy.html">
+🧬 3D Anatomy
+</a>
+
+
+<a href="emergency-guide.html">
+🚑 Emergency
+</a>
+
+
+<a href="quiz-academy.html">
+🎓 Academy
+</a>
+
+
+</div>
+
+
+
+
+<script src="js/health.js"></script>
+
+<script src="js/mobile-nav.js"></script>
+
+
+</body>
+
+</html>
